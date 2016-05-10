@@ -11,6 +11,7 @@ namespace :assets do
     sh 'bower install'
     sh 'cp -r bower_components/office-ui-fabric/dist/js/* vendor/assets/js'
     sh 'cp -r bower_components/office-ui-fabric/dist/sass/* vendor/assets/scss'
+    sh 'cp -r bower_components/office-ui-fabric/dist/css/* vendor/assets/css'
     
     puts "Updated to the latest version of Office UI Fabric"
   end
@@ -18,6 +19,6 @@ namespace :assets do
   desc 'Remove old Foundation for Sites assets'
   task :clean do
     sh 'rm -rf vendor'
-    sh 'mkdir -p vendor/assets/js/ vendor/assets/scss/'
+    sh 'mkdir -p vendor/assets/js/ vendor/assets/scss/ vendor/assets/css'
   end
 end
