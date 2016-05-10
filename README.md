@@ -1,5 +1,7 @@
 # office-ui-fabric-rails
 
+[![Gem Version](https://badge.fury.io/rb/office-ui-fabric-rails.svg)](https://badge.fury.io/rb/office-ui-fabric-rails)
+
 office-ui-fabric-rails integrates the [Office UI Fabric](https://github.com/OfficeDev/Office-UI-Fabric) framework from Microsoft into the Rails Asset Pipeline
 
 ## Installation
