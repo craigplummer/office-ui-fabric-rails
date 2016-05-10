@@ -58,7 +58,7 @@ For information on how to use the Office UI Fabric framework see the [documentat
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/office-ui-fabric-rails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/craigplummer/office-ui-fabric-rails.
 
 For issues with Office UI Fabric itself please use https://github.com/OfficeDev/Office-UI-Fabric
 
