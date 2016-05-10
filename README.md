@@ -16,13 +16,23 @@ And then execute:
 
 ## Usage
 
-## Add Office UI Fabric to your CSS
+### Add Office UI Fabric to your CSS
+
+#### CSS
 
 Add the following line to the end of your `app/assets/stylesheets/application.css` file:
 
 ```
-/*= require fabric
+*= require fabric
 ```
+
+If you also wish to use the [Fabric components](http://dev.office.com/fabric/components) then you should also add
+
+```
+*= require fabric.components
+```
+
+#### Sass
 
 If you are using Sass then you can add the following to your application.scss instead:
 
@@ -30,12 +40,18 @@ If you are using Sass then you can add the following to your application.scss in
 @import "fabric";
 ```
 
-## Add Office UI Fabric to your JS
+If you also wish to use the [Fabric components](http://dev.office.com/fabric/components) then you should also add
+
+```
+@import "fabric.components";
+```
+
+### Add Office UI Fabric to your JS
 
 Add the following to your `app/assets/javascripts/application.js` file:
 
 ```
-//= require fabric
+//= require jquery.fabric
 ```
 
 For information on how to use the Office UI Fabric framework see the [documentation](http://dev.office.com/fabric)
