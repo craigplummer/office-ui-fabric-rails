@@ -1,0 +1,7 @@
+{
+  "name": "foundation-rails",
+  "version": "2.5.0.0",
+  "dependencies": {
+    "office-ui-fabric": "2.5.0"
+  }
+}
