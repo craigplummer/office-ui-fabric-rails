@@ -1,12 +1,16 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric 2.5.0
+ * Office UI Fabric 2.6.0
  * The front-end framework for building experiences for Office 365.
  **/
 .ms-u-borderBox,
 .ms-u-borderBox:before,
 .ms-u-borderBox:after {
   box-sizing: border-box;
+}
+
+.ms-u-borderBase {
+  border: 1px solid;
 }
 
 .ms-u-clearfix {
@@ -29,6 +33,40 @@
   margin: 0;
   padding: 0;
   box-shadow: none;
+}
+
+.ms-u-textAlignLeft {
+  text-align: left;
+}
+
+.ms-u-textAlignCenter {
+  text-align: center;
+}
+
+.ms-u-textAlignRight {
+  text-align: right;
+}
+
+.ms-u-screenReaderOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.ms-u-textTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.ms-u-noWrap {
+  white-space: nowrap;
 }
 
 .ms-bgColor-themeDark,
@@ -236,8 +274,12 @@
   background-color: #dff6dd;
 }
 
-.ms-bgColor-alert {
+.ms-bgColor-severeWarning {
   background-color: #fed9cc;
+}
+
+.ms-bgColor-warning {
+  background-color: #fff4ce;
 }
 
 .ms-bgColor-error {
@@ -439,22 +481,6 @@
 
 .ms-borderColor-greenLight {
   border-color: #bad80a;
-}
-
-.ms-borderColor-info {
-  border-color: #107c10;
-}
-
-.ms-borderColor-success {
-  border-color: #107c10;
-}
-
-.ms-borderColor-alert {
-  border-color: #d83b01;
-}
-
-.ms-borderColor-error {
-  border-color: #a80000;
 }
 
 .ms-borderColorTop-themePrimary,
@@ -814,7 +840,7 @@
 
 .ms-fontColor-info,
 .ms-fontColor-info--hover:hover {
-  color: #107c10;
+  color: #767676;
 }
 
 .ms-fontColor-success,
@@ -824,6 +850,16 @@
 
 .ms-fontColor-alert,
 .ms-fontColor-alert--hover:hover {
+  color: #d83b01;
+}
+
+.ms-fontColor-warning,
+.ms-fontColor-warning--hover:hover {
+  color: #767676;
+}
+
+.ms-fontColor-severeWarning,
+.ms-fontColor-severeWarning--hover:hover {
   color: #d83b01;
 }
 
