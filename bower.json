@@ -1,7 +1,7 @@
 {
-  "name": "foundation-rails",
-  "version": "2.6.1.0",
+  "name": "office-ui-fabric-rails",
+  "version": "3.0.0.0.beta",
   "dependencies": {
-    "office-ui-fabric": "2.6.1"
+    "office-ui-fabric": "3.0.0-beta"
   }
 }

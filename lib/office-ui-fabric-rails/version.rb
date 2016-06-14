@@ -1,6 +1,6 @@
 module OfficeUiFabric
   module Rails
-    FABRIC_VERSION = "2.6.0"
-    VERSION = "2.6.1.0"
+    FABRIC_VERSION = "3.0.0.beta"
+    VERSION = "3.0.0.0.beta1"
   end
 end

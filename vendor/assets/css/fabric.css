@@ -1,6 +1,6 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric 2.6.1
+ * Office UI Fabric 3.0.0
  * The front-end framework for building experiences for Office 365.
  **/
 .ms-u-borderBox,
@@ -490,92 +490,92 @@
 
 .ms-font-su {
   color: #333333;
-  font-family: 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 42px;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 .ms-font-xxl {
   color: #333333;
-  font-family: 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 28px;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 .ms-font-xl {
   color: #333333;
-  font-family: 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 21px;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 .ms-font-l {
   color: #333333;
-  font-family: 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 17px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .ms-font-m-plus {
   color: #333333;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .ms-font-m {
   color: #333333;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .ms-font-s-plus {
   color: #333333;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .ms-font-s {
   color: #333333;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .ms-font-xs {
   color: #333333;
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 11px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .ms-font-mi {
   color: #333333;
-  font-family: 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
   font-size: 10px;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .ms-fontWeight-light,
 .ms-fontWeight-light--hover:hover {
-  font-family: 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: 100;
 }
 
 .ms-fontWeight-semilight,
 .ms-fontWeight-semilight--hover:hover {
-  font-family: 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: 300;
 }
 
 .ms-fontWeight-regular,
 .ms-fontWeight-regular--hover:hover {
-  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: 400;
 }
 
 .ms-fontWeight-semibold,
 .ms-fontWeight-semibold--hover:hover {
-  font-family: 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: 600;
 }
 
 .ms-fontSize-su {
@@ -872,800 +872,31 @@
   Your use of the content in the files referenced here are subject to the terms of the license at http://aka.ms/fabric-font-license
 */
 @font-face {
-  font-family: 'Leelawadee UI Bold';
-  src: url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.eot?#iefix') format('embedded-opentype'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.ttf') format('truetype'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold#LeelawadeeUI-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Leelawadee UI';
-  src: url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.eot?#iefix') format('embedded-opentype'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.ttf') format('truetype'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular#LeelawadeeUI-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Leelawadee UI Semilight';
-  src: url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.eot?#iefix') format('embedded-opentype'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.ttf') format('truetype'), url('https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight#LeelawadeeUI-Semilight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light Arabic';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Regular Arabic';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semibold Arabic';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semilight Arabic';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light Cyrillic';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Regular Cyrillic';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semibold Cyrillic';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semilight Cyrillic';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light EastEuropean';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Regular EastEuropean';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semibold EastEuropean';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semilight EastEuropean';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light Greek';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Regular Greek';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semibold Greek';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semilight Greek';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light Hebrew';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Regular Hebrew';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semibold Hebrew';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semilight Hebrew';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light Vietnamese';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Regular Vietnamese';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semibold Vietnamese';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Semilight Vietnamese';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Light WestEuropean';
+  font-family: 'Segoe UI WestEuropean';
   src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Segoe UI Regular WestEuropean';
+  font-family: 'Segoe UI WestEuropean';
   src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Segoe UI Semibold WestEuropean';
+  font-family: 'Segoe UI WestEuropean';
   src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Segoe UI Semilight WestEuropean';
+  font-family: 'Segoe UI WestEuropean';
   src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 200;
   font-style: normal;
-}
-
-*[lang='ja-JP'] .ms-font-mi,
-*[lang='ja-JP'] .ms-font-xs,
-*[lang='ja-JP'] .ms-font-s,
-*[lang='ja-JP'] .ms-font-s-plus,
-*[lang='ja-JP'] .ms-font-m,
-*[lang='ja-JP'] .ms-font-m-plus,
-*[lang='ja-JP'] .ms-font-l,
-*[lang='ja-JP'] .ms-font-xl,
-*[lang='ja-JP'] .ms-font-xxl,
-*[lang='ja-JP'] .ms-font-su,
-*[lang='ja-JP'] .ms-fontWeight-light,
-*[lang='ja-JP'] .ms-fontWeight-light-hover:hover,
-*[lang='ja-JP'] .ms-fontWeight-semilight,
-*[lang='ja-JP'] .ms-fontWeight-semilight-hover:hover,
-*[lang='ja-JP'] .ms-fontWeight-regular,
-*[lang='ja-JP'] .ms-fontWeight-regular-hover:hover,
-*[lang='ja-JP'] .ms-fontWeight-semibold,
-*[lang='ja-JP'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Yu Gothic', 'Meiryo UI', Meiryo, 'MS Pgothic', Osaka, 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ko-KR'] .ms-font-mi,
-*[lang='ko-KR'] .ms-font-xs,
-*[lang='ko-KR'] .ms-font-s,
-*[lang='ko-KR'] .ms-font-s-plus,
-*[lang='ko-KR'] .ms-font-m,
-*[lang='ko-KR'] .ms-font-m-plus,
-*[lang='ko-KR'] .ms-font-l,
-*[lang='ko-KR'] .ms-font-xl,
-*[lang='ko-KR'] .ms-font-xxl,
-*[lang='ko-KR'] .ms-font-su,
-*[lang='ko-KR'] .ms-fontWeight-light,
-*[lang='ko-KR'] .ms-fontWeight-light-hover:hover,
-*[lang='ko-KR'] .ms-fontWeight-semilight,
-*[lang='ko-KR'] .ms-fontWeight-semilight-hover:hover,
-*[lang='ko-KR'] .ms-fontWeight-regular,
-*[lang='ko-KR'] .ms-fontWeight-regular-hover:hover,
-*[lang='ko-KR'] .ms-fontWeight-semibold,
-*[lang='ko-KR'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Malgun Gothic', Gulim, 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ch-ZHS'] .ms-font-mi,
-*[lang='ch-ZHS'] .ms-font-xs,
-*[lang='ch-ZHS'] .ms-font-s,
-*[lang='ch-ZHS'] .ms-font-s-plus,
-*[lang='ch-ZHS'] .ms-font-m,
-*[lang='ch-ZHS'] .ms-font-m-plus,
-*[lang='ch-ZHS'] .ms-font-l,
-*[lang='ch-ZHS'] .ms-font-xl,
-*[lang='ch-ZHS'] .ms-font-xxl,
-*[lang='ch-ZHS'] .ms-font-su,
-*[lang='ch-ZHS'] .ms-fontWeight-light,
-*[lang='ch-ZHS'] .ms-fontWeight-light-hover:hover,
-*[lang='ch-ZHS'] .ms-fontWeight-semilight,
-*[lang='ch-ZHS'] .ms-fontWeight-semilight-hover:hover,
-*[lang='ch-ZHS'] .ms-fontWeight-regular,
-*[lang='ch-ZHS'] .ms-fontWeight-regular-hover:hover,
-*[lang='ch-ZHS'] .ms-fontWeight-semibold,
-*[lang='ch-ZHS'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Microsoft Yahei', Verdana, Simsun, 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ch-ZHT'] .ms-font-mi,
-*[lang='ch-ZHT'] .ms-font-xs,
-*[lang='ch-ZHT'] .ms-font-s,
-*[lang='ch-ZHT'] .ms-font-s-plus,
-*[lang='ch-ZHT'] .ms-font-m,
-*[lang='ch-ZHT'] .ms-font-m-plus,
-*[lang='ch-ZHT'] .ms-font-l,
-*[lang='ch-ZHT'] .ms-font-xl,
-*[lang='ch-ZHT'] .ms-font-xxl,
-*[lang='ch-ZHT'] .ms-font-su,
-*[lang='ch-ZHT'] .ms-fontWeight-light,
-*[lang='ch-ZHT'] .ms-fontWeight-light-hover:hover,
-*[lang='ch-ZHT'] .ms-fontWeight-semilight,
-*[lang='ch-ZHT'] .ms-fontWeight-semilight-hover:hover,
-*[lang='ch-ZHT'] .ms-fontWeight-regular,
-*[lang='ch-ZHT'] .ms-fontWeight-regular-hover:hover,
-*[lang='ch-ZHT'] .ms-fontWeight-semibold,
-*[lang='ch-ZHT'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Microsoft Jhenghei', Pmingliu, 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hi-IN'] .ms-font-mi,
-*[lang='hi-IN'] .ms-font-xs,
-*[lang='hi-IN'] .ms-font-s,
-*[lang='hi-IN'] .ms-font-s-plus,
-*[lang='hi-IN'] .ms-font-m,
-*[lang='hi-IN'] .ms-font-m-plus,
-*[lang='hi-IN'] .ms-font-l,
-*[lang='hi-IN'] .ms-font-xl,
-*[lang='hi-IN'] .ms-font-xxl,
-*[lang='hi-IN'] .ms-font-su,
-*[lang='hi-IN'] .ms-fontWeight-light,
-*[lang='hi-IN'] .ms-fontWeight-light-hover:hover,
-*[lang='hi-IN'] .ms-fontWeight-semilight,
-*[lang='hi-IN'] .ms-fontWeight-semilight-hover:hover,
-*[lang='hi-IN'] .ms-fontWeight-regular,
-*[lang='hi-IN'] .ms-fontWeight-regular-hover:hover,
-*[lang='hi-IN'] .ms-fontWeight-semibold,
-*[lang='hi-IN'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Nirmala UI', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='th-TH'] .ms-font-xl,
-*[lang='th-TH'] .ms-font-xxl,
-*[lang='th-TH'] .ms-fontWeight-light,
-*[lang='th-TH'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='th-TH'] .ms-font-l,
-*[lang='th-TH'] .ms-font-su,
-*[lang='th-TH'] .ms-fontWeight-semilight,
-*[lang='th-TH'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='th-TH'] .ms-fontWeight-regular,
-*[lang='th-TH'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Leelawadee UI Regular', 'Kmer UI', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='th-TH'] .ms-font-mi,
-*[lang='th-TH'] .ms-fontWeight-semibold,
-*[lang='th-TH'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Leelawadee UI Bold', 'Kmer UI', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ar'] .ms-font-xl,
-*[lang='ar'] .ms-font-xxl,
-*[lang='ar'] .ms-fontWeight-light,
-*[lang='ar'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Arabic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ar'] .ms-font-l,
-*[lang='ar'] .ms-font-su,
-*[lang='ar'] .ms-fontWeight-semilight,
-*[lang='ar'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Arabic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ar'] .ms-fontWeight-regular,
-*[lang='ar'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Arabic', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ar'] .ms-font-mi,
-*[lang='ar'] .ms-fontWeight-semibold,
-*[lang='ar'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Arabic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='bg-BG'] .ms-font-xl,
-*[lang='bg-BG'] .ms-font-xxl,
-*[lang='bg-BG'] .ms-fontWeight-light,
-*[lang='bg-BG'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='bg-BG'] .ms-font-l,
-*[lang='bg-BG'] .ms-font-su,
-*[lang='bg-BG'] .ms-fontWeight-semilight,
-*[lang='bg-BG'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='bg-BG'] .ms-fontWeight-regular,
-*[lang='bg-BG'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='bg-BG'] .ms-font-mi,
-*[lang='bg-BG'] .ms-fontWeight-semibold,
-*[lang='bg-BG'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ru-RU'] .ms-font-xl,
-*[lang='ru-RU'] .ms-font-xxl,
-*[lang='ru-RU'] .ms-fontWeight-light,
-*[lang='ru-RU'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ru-RU'] .ms-font-l,
-*[lang='ru-RU'] .ms-font-su,
-*[lang='ru-RU'] .ms-fontWeight-semilight,
-*[lang='ru-RU'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ru-RU'] .ms-fontWeight-regular,
-*[lang='ru-RU'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='ru-RU'] .ms-font-mi,
-*[lang='ru-RU'] .ms-fontWeight-semibold,
-*[lang='ru-RU'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='uk-UA'] .ms-font-xl,
-*[lang='uk-UA'] .ms-font-xxl,
-*[lang='uk-UA'] .ms-fontWeight-light,
-*[lang='uk-UA'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='uk-UA'] .ms-font-l,
-*[lang='uk-UA'] .ms-font-su,
-*[lang='uk-UA'] .ms-fontWeight-semilight,
-*[lang='uk-UA'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='uk-UA'] .ms-fontWeight-regular,
-*[lang='uk-UA'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='uk-UA'] .ms-font-mi,
-*[lang='uk-UA'] .ms-fontWeight-semibold,
-*[lang='uk-UA'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='cs-CZ'] .ms-font-xl,
-*[lang='cs-CZ'] .ms-font-xxl,
-*[lang='cs-CZ'] .ms-fontWeight-light,
-*[lang='cs-CZ'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='cs-CZ'] .ms-font-l,
-*[lang='cs-CZ'] .ms-font-su,
-*[lang='cs-CZ'] .ms-fontWeight-semilight,
-*[lang='cs-CZ'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='cs-CZ'] .ms-fontWeight-regular,
-*[lang='cs-CZ'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='cs-CZ'] .ms-font-mi,
-*[lang='cs-CZ'] .ms-fontWeight-semibold,
-*[lang='cs-CZ'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='et-EE'] .ms-font-xl,
-*[lang='et-EE'] .ms-font-xxl,
-*[lang='et-EE'] .ms-fontWeight-light,
-*[lang='et-EE'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='et-EE'] .ms-font-l,
-*[lang='et-EE'] .ms-font-su,
-*[lang='et-EE'] .ms-fontWeight-semilight,
-*[lang='et-EE'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='et-EE'] .ms-fontWeight-regular,
-*[lang='et-EE'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='et-EE'] .ms-font-mi,
-*[lang='et-EE'] .ms-fontWeight-semibold,
-*[lang='et-EE'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hr-HR'] .ms-font-xl,
-*[lang='hr-HR'] .ms-font-xxl,
-*[lang='hr-HR'] .ms-fontWeight-light,
-*[lang='hr-HR'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hr-HR'] .ms-font-l,
-*[lang='hr-HR'] .ms-font-su,
-*[lang='hr-HR'] .ms-fontWeight-semilight,
-*[lang='hr-HR'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hr-HR'] .ms-fontWeight-regular,
-*[lang='hr-HR'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hr-HR'] .ms-font-mi,
-*[lang='hr-HR'] .ms-fontWeight-semibold,
-*[lang='hr-HR'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hu-HU'] .ms-font-xl,
-*[lang='hu-HU'] .ms-font-xxl,
-*[lang='hu-HU'] .ms-fontWeight-light,
-*[lang='hu-HU'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hu-HU'] .ms-font-l,
-*[lang='hu-HU'] .ms-font-su,
-*[lang='hu-HU'] .ms-fontWeight-semilight,
-*[lang='hu-HU'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hu-HU'] .ms-fontWeight-regular,
-*[lang='hu-HU'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='hu-HU'] .ms-font-mi,
-*[lang='hu-HU'] .ms-fontWeight-semibold,
-*[lang='hu-HU'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-LT'] .ms-font-xl,
-*[lang='lt-LT'] .ms-font-xxl,
-*[lang='lt-LT'] .ms-fontWeight-light,
-*[lang='lt-LT'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-LT'] .ms-font-l,
-*[lang='lt-LT'] .ms-font-su,
-*[lang='lt-LT'] .ms-fontWeight-semilight,
-*[lang='lt-LT'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-LT'] .ms-fontWeight-regular,
-*[lang='lt-LT'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-LT'] .ms-font-mi,
-*[lang='lt-LT'] .ms-fontWeight-semibold,
-*[lang='lt-LT'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lv-LV'] .ms-font-xl,
-*[lang='lv-LV'] .ms-font-xxl,
-*[lang='lv-LV'] .ms-fontWeight-light,
-*[lang='lv-LV'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lv-LV'] .ms-font-l,
-*[lang='lv-LV'] .ms-font-su,
-*[lang='lv-LV'] .ms-fontWeight-semilight,
-*[lang='lv-LV'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lv-LV'] .ms-fontWeight-regular,
-*[lang='lv-LV'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lv-LV'] .ms-font-mi,
-*[lang='lv-LV'] .ms-fontWeight-semibold,
-*[lang='lv-LV'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='pl-PL'] .ms-font-xl,
-*[lang='pl-PL'] .ms-font-xxl,
-*[lang='pl-PL'] .ms-fontWeight-light,
-*[lang='pl-PL'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='pl-PL'] .ms-font-l,
-*[lang='pl-PL'] .ms-font-su,
-*[lang='pl-PL'] .ms-fontWeight-semilight,
-*[lang='pl-PL'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='pl-PL'] .ms-fontWeight-regular,
-*[lang='pl-PL'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='pl-PL'] .ms-font-mi,
-*[lang='pl-PL'] .ms-fontWeight-semibold,
-*[lang='pl-PL'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-sr-SP'] .ms-font-xl,
-*[lang='lt-sr-SP'] .ms-font-xxl,
-*[lang='lt-sr-SP'] .ms-fontWeight-light,
-*[lang='lt-sr-SP'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-sr-SP'] .ms-font-l,
-*[lang='lt-sr-SP'] .ms-font-su,
-*[lang='lt-sr-SP'] .ms-fontWeight-semilight,
-*[lang='lt-sr-SP'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-sr-SP'] .ms-fontWeight-regular,
-*[lang='lt-sr-SP'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='lt-sr-SP'] .ms-font-mi,
-*[lang='lt-sr-SP'] .ms-fontWeight-semibold,
-*[lang='lt-sr-SP'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='tr-TR'] .ms-font-xl,
-*[lang='tr-TR'] .ms-font-xxl,
-*[lang='tr-TR'] .ms-fontWeight-light,
-*[lang='tr-TR'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='tr-TR'] .ms-font-l,
-*[lang='tr-TR'] .ms-font-su,
-*[lang='tr-TR'] .ms-fontWeight-semilight,
-*[lang='tr-TR'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='tr-TR'] .ms-fontWeight-regular,
-*[lang='tr-TR'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='tr-TR'] .ms-font-mi,
-*[lang='tr-TR'] .ms-fontWeight-semibold,
-*[lang='tr-TR'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='sk-SK'] .ms-font-xl,
-*[lang='sk-SK'] .ms-font-xxl,
-*[lang='sk-SK'] .ms-fontWeight-light,
-*[lang='sk-SK'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='sk-SK'] .ms-font-l,
-*[lang='sk-SK'] .ms-font-su,
-*[lang='sk-SK'] .ms-fontWeight-semilight,
-*[lang='sk-SK'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='sk-SK'] .ms-fontWeight-regular,
-*[lang='sk-SK'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='sk-SK'] .ms-font-mi,
-*[lang='sk-SK'] .ms-fontWeight-semibold,
-*[lang='sk-SK'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='kk-KZ'] .ms-font-xl,
-*[lang='kk-KZ'] .ms-font-xxl,
-*[lang='kk-KZ'] .ms-fontWeight-light,
-*[lang='kk-KZ'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='kk-KZ'] .ms-font-l,
-*[lang='kk-KZ'] .ms-font-su,
-*[lang='kk-KZ'] .ms-fontWeight-semilight,
-*[lang='kk-KZ'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='kk-KZ'] .ms-fontWeight-regular,
-*[lang='kk-KZ'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='kk-KZ'] .ms-font-mi,
-*[lang='kk-KZ'] .ms-fontWeight-semibold,
-*[lang='kk-KZ'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='el-GR'] .ms-font-xl,
-*[lang='el-GR'] .ms-font-xxl,
-*[lang='el-GR'] .ms-fontWeight-light,
-*[lang='el-GR'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Greek', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='el-GR'] .ms-font-l,
-*[lang='el-GR'] .ms-font-su,
-*[lang='el-GR'] .ms-fontWeight-semilight,
-*[lang='el-GR'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Greek', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='el-GR'] .ms-fontWeight-regular,
-*[lang='el-GR'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Greek', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='el-GR'] .ms-font-mi,
-*[lang='el-GR'] .ms-fontWeight-semibold,
-*[lang='el-GR'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Greek', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='he-IL'] .ms-font-xl,
-*[lang='he-IL'] .ms-font-xxl,
-*[lang='he-IL'] .ms-fontWeight-light,
-*[lang='he-IL'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Hebrew', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='he-IL'] .ms-font-l,
-*[lang='he-IL'] .ms-font-su,
-*[lang='he-IL'] .ms-fontWeight-semilight,
-*[lang='he-IL'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Hebrew', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='he-IL'] .ms-fontWeight-regular,
-*[lang='he-IL'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Hebrew', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='he-IL'] .ms-font-mi,
-*[lang='he-IL'] .ms-fontWeight-semibold,
-*[lang='he-IL'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Hebrew', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='vi-VN'] .ms-font-xl,
-*[lang='vi-VN'] .ms-font-xxl,
-*[lang='vi-VN'] .ms-fontWeight-light,
-*[lang='vi-VN'] .ms-fontWeight-light-hover:hover {
-  font-family: 'Segoe UI Light Vietnamese', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='vi-VN'] .ms-font-l,
-*[lang='vi-VN'] .ms-font-su,
-*[lang='vi-VN'] .ms-fontWeight-semilight,
-*[lang='vi-VN'] .ms-fontWeight-semilight-hover:hover {
-  font-family: 'Segoe UI Semilight Vietnamese', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='vi-VN'] .ms-fontWeight-regular,
-*[lang='vi-VN'] .ms-fontweight-regular-hover:hover {
-  font-family: 'Segoe UI Regular Vietnamese', 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
-}
-
-*[lang='vi-VN'] .ms-font-mi,
-*[lang='vi-VN'] .ms-fontWeight-semibold,
-*[lang='vi-VN'] .ms-fontWeight-semibold-hover:hover {
-  font-family: 'Segoe UI Semibold Vietnamese', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe UI', Tahoma, Arial, sans-serif;
 }
 
 /*
@@ -3051,6 +2282,30 @@
 
 .ms-Icon--alert2:before {
   content: '\e28a';
+}
+
+.ms-Icon--skypeCircleCheck:before {
+  content: '\e310';
+}
+
+.ms-Icon--skypeCircleClock:before {
+  content: '\e311';
+}
+
+.ms-Icon--skypeCircleMinus:before {
+  content: '\e312';
+}
+
+.ms-Icon--skypeCheck:before {
+  content: '\e315';
+}
+
+.ms-Icon--skypeClock:before {
+  content: '\e316';
+}
+
+.ms-Icon--skypeMinus:before {
+  content: '\e317';
 }
 
 .ms-Icon--circle {
