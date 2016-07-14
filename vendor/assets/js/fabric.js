@@ -1244,7 +1244,7 @@ var FabricTemplateLibrary = (function () {
         FacePile0.setAttribute("class", "ms-FacePile");
         FacePile0.innerHTML += "  ";
         var FacePile0c1 = document.createElement("button");
-        FacePile0c1.setAttribute("class", "ms-FacePile-addButton ms-FacePile-addButton--addPerson js-addPerson");
+        FacePile0c1.setAttribute("class", "ms-FacePile-addButton ms-FacePile-addButton--addPerson");
         FacePile0c1.innerHTML += "    ";
         var FacePile0c1c1 = document.createElement("i");
         FacePile0c1c1.setAttribute("class", "ms-FacePile-addPersonIcon ms-Icon ms-Icon--personAdd");
@@ -1254,10 +1254,20 @@ var FabricTemplateLibrary = (function () {
         FacePile0.innerHTML += "        ";
         FacePile0.innerHTML += "            ";
         var FacePile0c5 = document.createElement("div");
-        FacePile0c5.setAttribute("class", "ms-Persona      ");
+        FacePile0c5.setAttribute("class", "ms-Persona            ms-Persona--facePile        ");
         FacePile0c5.innerHTML += "        ";
         var FacePile0c5c1 = document.createElement("div");
         FacePile0c5c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c1.innerHTML += "            ";
+        var FacePile0c5c1c1 = document.createElement("div");
+        FacePile0c5c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c1c1.innerHTML += "AL";
+        FacePile0c5c1.appendChild(FacePile0c5c1c1);
+        FacePile0c5c1.innerHTML += "            ";
+        var FacePile0c5c1c3 = document.createElement("img");
+        FacePile0c5c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c1.appendChild(FacePile0c5c1c3);
         FacePile0c5c1.innerHTML += "        ";
         FacePile0c5.appendChild(FacePile0c5c1);
         FacePile0c5.innerHTML += "        ";
@@ -1268,17 +1278,683 @@ var FabricTemplateLibrary = (function () {
         FacePile0c5.innerHTML += "        ";
         var FacePile0c5c5 = document.createElement("div");
         FacePile0c5c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c5.innerHTML += "            ";
+        var FacePile0c5c5c1 = document.createElement("div");
+        FacePile0c5c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c5c1.innerHTML += "Alton Lafferty";
+        FacePile0c5c5.appendChild(FacePile0c5c5c1);
+        FacePile0c5c5.innerHTML += "            ";
+        var FacePile0c5c5c3 = document.createElement("div");
+        FacePile0c5c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c5c3.innerHTML += "Accountant";
+        FacePile0c5c5.appendChild(FacePile0c5c5c3);
         FacePile0c5c5.innerHTML += "        ";
         FacePile0c5.appendChild(FacePile0c5c5);
+        FacePile0c5.innerHTML += "          ";
+        FacePile0c5.innerHTML += "          ";
+        var FacePile0c5c9 = document.createElement("div");
+        FacePile0c5c9.setAttribute("class", "ms-PersonaCard ");
+        FacePile0c5c9.innerHTML += "            ";
+        var FacePile0c5c9c1 = document.createElement("div");
+        FacePile0c5c9c1.setAttribute("class", "ms-PersonaCard-persona");
+        FacePile0c5c9c1.innerHTML += "              ";
+        FacePile0c5c9c1.innerHTML += "                            ";
+        var FacePile0c5c9c1c3 = document.createElement("div");
+        FacePile0c5c9c1c3.setAttribute("class", "ms-Persona                    ms-Persona--lg                ");
+        FacePile0c5c9c1c3.innerHTML += "                ";
+        var FacePile0c5c9c1c3c1 = document.createElement("div");
+        FacePile0c5c9c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c1c3c1.innerHTML += "                    ";
+        var FacePile0c5c9c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c1c3c1c1.innerHTML += "AL";
+        FacePile0c5c9c1c3c1.appendChild(FacePile0c5c9c1c3c1c1);
+        FacePile0c5c9c1c3c1.innerHTML += "                    ";
+        var FacePile0c5c9c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c1c3c1.appendChild(FacePile0c5c9c1c3c1c3);
+        FacePile0c5c9c1c3c1.innerHTML += "                ";
+        FacePile0c5c9c1c3.appendChild(FacePile0c5c9c1c3c1);
+        FacePile0c5c9c1c3.innerHTML += "                ";
+        var FacePile0c5c9c1c3c3 = document.createElement("div");
+        FacePile0c5c9c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c1c3c3.innerHTML += "                ";
+        FacePile0c5c9c1c3.appendChild(FacePile0c5c9c1c3c3);
+        FacePile0c5c9c1c3.innerHTML += "                ";
+        var FacePile0c5c9c1c3c5 = document.createElement("div");
+        FacePile0c5c9c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c5c9c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c1c3c5c1.innerHTML += "Alton Lafferty";
+        FacePile0c5c9c1c3c5.appendChild(FacePile0c5c9c1c3c5c1);
+        FacePile0c5c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c5c9c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c1c3c5c3.innerHTML += "Accountant";
+        FacePile0c5c9c1c3c5.appendChild(FacePile0c5c9c1c3c5c3);
+        FacePile0c5c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c5c9c1c3c5c5 = document.createElement("div");
+        FacePile0c5c9c1c3c5c5.setAttribute("class", "ms-Persona-tertiaryText");
+        FacePile0c5c9c1c3c5c5.innerHTML += "In a meeting";
+        FacePile0c5c9c1c3c5.appendChild(FacePile0c5c9c1c3c5c5);
+        FacePile0c5c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c5c9c1c3c5c7 = document.createElement("div");
+        FacePile0c5c9c1c3c5c7.setAttribute("class", "ms-Persona-optionalText");
+        FacePile0c5c9c1c3c5c7.innerHTML += "Available at 4:00pm";
+        FacePile0c5c9c1c3c5.appendChild(FacePile0c5c9c1c3c5c7);
+        FacePile0c5c9c1c3c5.innerHTML += "                ";
+        FacePile0c5c9c1c3.appendChild(FacePile0c5c9c1c3c5);
+        FacePile0c5c9c1c3.innerHTML += "              ";
+        FacePile0c5c9c1.appendChild(FacePile0c5c9c1c3);
+        FacePile0c5c9c1.innerHTML += "            ";
+        FacePile0c5c9.appendChild(FacePile0c5c9c1);
+        FacePile0c5c9.innerHTML += "            ";
+        var FacePile0c5c9c3 = document.createElement("ul");
+        FacePile0c5c9c3.setAttribute("class", "ms-PersonaCard-actions");
+        FacePile0c5c9c3.innerHTML += "              ";
+        var FacePile0c5c9c3c1 = document.createElement("li");
+        FacePile0c5c9c3c1.setAttribute("data-action-id", "chat");
+        FacePile0c5c9c3c1.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c5c9c3c1.setAttribute("tabindex", "1");
+        var FacePile0c5c9c3c1c0 = document.createElement("i");
+        FacePile0c5c9c3c1c0.setAttribute("class", "ms-Icon ms-Icon--chat");
+        FacePile0c5c9c3c1.appendChild(FacePile0c5c9c3c1c0);
+        FacePile0c5c9c3.appendChild(FacePile0c5c9c3c1);
+        FacePile0c5c9c3.innerHTML += "              ";
+        var FacePile0c5c9c3c3 = document.createElement("li");
+        FacePile0c5c9c3c3.setAttribute("data-action-id", "phone");
+        FacePile0c5c9c3c3.setAttribute("class", "ms-PersonaCard-action is-active");
+        FacePile0c5c9c3c3.setAttribute("tabindex", "2");
+        var FacePile0c5c9c3c3c0 = document.createElement("i");
+        FacePile0c5c9c3c3c0.setAttribute("class", "ms-Icon ms-Icon--phone");
+        FacePile0c5c9c3c3.appendChild(FacePile0c5c9c3c3c0);
+        FacePile0c5c9c3.appendChild(FacePile0c5c9c3c3);
+        FacePile0c5c9c3.innerHTML += "              ";
+        var FacePile0c5c9c3c5 = document.createElement("li");
+        FacePile0c5c9c3c5.setAttribute("data-action-id", "video");
+        FacePile0c5c9c3c5.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c5c9c3c5.setAttribute("tabindex", "3");
+        var FacePile0c5c9c3c5c0 = document.createElement("i");
+        FacePile0c5c9c3c5c0.setAttribute("class", "ms-Icon ms-Icon--video");
+        FacePile0c5c9c3c5.appendChild(FacePile0c5c9c3c5c0);
+        FacePile0c5c9c3.appendChild(FacePile0c5c9c3c5);
+        FacePile0c5c9c3.innerHTML += "              ";
+        var FacePile0c5c9c3c7 = document.createElement("li");
+        FacePile0c5c9c3c7.setAttribute("data-action-id", "mail");
+        FacePile0c5c9c3c7.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c5c9c3c7.setAttribute("tabindex", "4");
+        var FacePile0c5c9c3c7c0 = document.createElement("i");
+        FacePile0c5c9c3c7c0.setAttribute("class", "ms-Icon ms-Icon--mail");
+        FacePile0c5c9c3c7.appendChild(FacePile0c5c9c3c7c0);
+        FacePile0c5c9c3.appendChild(FacePile0c5c9c3c7);
+        FacePile0c5c9c3.innerHTML += "              ";
+        var FacePile0c5c9c3c9 = document.createElement("li");
+        FacePile0c5c9c3c9.setAttribute("class", "ms-PersonaCard-overflow");
+        FacePile0c5c9c3c9.setAttribute("alt", "View profile in Delve");
+        FacePile0c5c9c3c9.setAttribute("title", "View profile in Delve");
+        FacePile0c5c9c3c9.innerHTML += "View profile";
+        FacePile0c5c9c3.appendChild(FacePile0c5c9c3c9);
+        FacePile0c5c9c3.innerHTML += "              ";
+        var FacePile0c5c9c3c11 = document.createElement("li");
+        FacePile0c5c9c3c11.setAttribute("data-action-id", "org");
+        FacePile0c5c9c3c11.setAttribute("class", "ms-PersonaCard-action ms-PersonaCard-orgChart");
+        FacePile0c5c9c3c11.setAttribute("tabindex", "5");
+        var FacePile0c5c9c3c11c0 = document.createElement("i");
+        FacePile0c5c9c3c11c0.setAttribute("class", "ms-Icon ms-Icon--org");
+        FacePile0c5c9c3c11.appendChild(FacePile0c5c9c3c11c0);
+        FacePile0c5c9c3.appendChild(FacePile0c5c9c3c11);
+        FacePile0c5c9c3.innerHTML += "            ";
+        FacePile0c5c9.appendChild(FacePile0c5c9c3);
+        FacePile0c5c9.innerHTML += "            ";
+        var FacePile0c5c9c5 = document.createElement("div");
+        FacePile0c5c9c5.setAttribute("class", "ms-PersonaCard-actionDetailBox");
+        FacePile0c5c9c5.innerHTML += "              ";
+        var FacePile0c5c9c5c1 = document.createElement("div");
+        FacePile0c5c9c5c1.setAttribute("data-detail-id", "mail");
+        FacePile0c5c9c5c1.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c5c9c5c1.innerHTML += "                ";
+        var FacePile0c5c9c5c1c1 = document.createElement("div");
+        FacePile0c5c9c5c1c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c1c1c0 = document.createElement("span");
+        FacePile0c5c9c5c1c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c1c1c0.innerHTML += "Personal:";
+        FacePile0c5c9c5c1c1.appendChild(FacePile0c5c9c5c1c1c0);
+        FacePile0c5c9c5c1c1.innerHTML += " ";
+        var FacePile0c5c9c5c1c1c2 = document.createElement("a");
+        FacePile0c5c9c5c1c1c2.setAttribute("class", "ms-Link");
+        FacePile0c5c9c5c1c1c2.setAttribute("href", "mailto:alton.lafferty@outlook.com");
+        FacePile0c5c9c5c1c1c2.innerHTML += "alton.lafferty@outlook.com";
+        FacePile0c5c9c5c1c1.appendChild(FacePile0c5c9c5c1c1c2);
+        FacePile0c5c9c5c1.appendChild(FacePile0c5c9c5c1c1);
+        FacePile0c5c9c5c1.innerHTML += "                ";
+        var FacePile0c5c9c5c1c3 = document.createElement("div");
+        FacePile0c5c9c5c1c3.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c1c3c0 = document.createElement("span");
+        FacePile0c5c9c5c1c3c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c1c3c0.innerHTML += "Work:";
+        FacePile0c5c9c5c1c3.appendChild(FacePile0c5c9c5c1c3c0);
+        FacePile0c5c9c5c1c3.innerHTML += " ";
+        var FacePile0c5c9c5c1c3c2 = document.createElement("a");
+        FacePile0c5c9c5c1c3c2.setAttribute("class", "ms-Link");
+        FacePile0c5c9c5c1c3c2.setAttribute("href", "mailto:alton.lafferty@outlook.com");
+        FacePile0c5c9c5c1c3c2.innerHTML += "altonlafferty@contoso.com";
+        FacePile0c5c9c5c1c3.appendChild(FacePile0c5c9c5c1c3c2);
+        FacePile0c5c9c5c1.appendChild(FacePile0c5c9c5c1c3);
+        FacePile0c5c9c5c1.innerHTML += "              ";
+        FacePile0c5c9c5.appendChild(FacePile0c5c9c5c1);
+        FacePile0c5c9c5.innerHTML += "              ";
+        var FacePile0c5c9c5c3 = document.createElement("div");
+        FacePile0c5c9c5c3.setAttribute("data-detail-id", "chat");
+        FacePile0c5c9c5c3.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c5c9c5c3.innerHTML += "                ";
+        var FacePile0c5c9c5c3c1 = document.createElement("div");
+        FacePile0c5c9c5c3c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c3c1c0 = document.createElement("span");
+        FacePile0c5c9c5c3c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c3c1c0.innerHTML += "Lync:";
+        FacePile0c5c9c5c3c1.appendChild(FacePile0c5c9c5c3c1c0);
+        FacePile0c5c9c5c3c1.innerHTML += " ";
+        var FacePile0c5c9c5c3c1c2 = document.createElement("a");
+        FacePile0c5c9c5c3c1c2.setAttribute("class", "ms-Link");
+        FacePile0c5c9c5c3c1c2.setAttribute("href", "#");
+        FacePile0c5c9c5c3c1c2.innerHTML += "Start Lync call";
+        FacePile0c5c9c5c3c1.appendChild(FacePile0c5c9c5c3c1c2);
+        FacePile0c5c9c5c3.appendChild(FacePile0c5c9c5c3c1);
+        FacePile0c5c9c5c3.innerHTML += "              ";
+        FacePile0c5c9c5.appendChild(FacePile0c5c9c5c3);
+        FacePile0c5c9c5.innerHTML += "              ";
+        var FacePile0c5c9c5c5 = document.createElement("div");
+        FacePile0c5c9c5c5.setAttribute("data-detail-id", "phone");
+        FacePile0c5c9c5c5.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c5c9c5c5.innerHTML += "                ";
+        var FacePile0c5c9c5c5c1 = document.createElement("div");
+        FacePile0c5c9c5c5c1.setAttribute("class", "ms-PersonaCard-detailExpander");
+        FacePile0c5c9c5c5.appendChild(FacePile0c5c9c5c5c1);
+        FacePile0c5c9c5c5.innerHTML += "                ";
+        var FacePile0c5c9c5c5c3 = document.createElement("div");
+        FacePile0c5c9c5c5c3.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c5c3c0 = document.createElement("span");
+        FacePile0c5c9c5c5c3c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c5c3c0.innerHTML += "Details";
+        FacePile0c5c9c5c5c3.appendChild(FacePile0c5c9c5c5c3c0);
+        FacePile0c5c9c5c5.appendChild(FacePile0c5c9c5c5c3);
+        FacePile0c5c9c5c5.innerHTML += "                ";
+        var FacePile0c5c9c5c5c5 = document.createElement("div");
+        FacePile0c5c9c5c5c5.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c5c5c0 = document.createElement("span");
+        FacePile0c5c9c5c5c5c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c5c5c0.innerHTML += "Personal:";
+        FacePile0c5c9c5c5c5.appendChild(FacePile0c5c9c5c5c5c0);
+        FacePile0c5c9c5c5c5.innerHTML += " 555.206.2443";
+        FacePile0c5c9c5c5.appendChild(FacePile0c5c9c5c5c5);
+        FacePile0c5c9c5c5.innerHTML += "                ";
+        var FacePile0c5c9c5c5c7 = document.createElement("div");
+        FacePile0c5c9c5c5c7.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c5c7c0 = document.createElement("span");
+        FacePile0c5c9c5c5c7c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c5c7c0.innerHTML += "Work:";
+        FacePile0c5c9c5c5c7.appendChild(FacePile0c5c9c5c5c7c0);
+        FacePile0c5c9c5c5c7.innerHTML += " 555.929.8240";
+        FacePile0c5c9c5c5.appendChild(FacePile0c5c9c5c5c7);
+        FacePile0c5c9c5c5.innerHTML += "              ";
+        FacePile0c5c9c5.appendChild(FacePile0c5c9c5c5);
+        FacePile0c5c9c5.innerHTML += "              ";
+        var FacePile0c5c9c5c7 = document.createElement("div");
+        FacePile0c5c9c5c7.setAttribute("data-detail-id", "video");
+        FacePile0c5c9c5c7.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c5c9c5c7.innerHTML += "                ";
+        var FacePile0c5c9c5c7c1 = document.createElement("div");
+        FacePile0c5c9c5c7c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c5c9c5c7c1c0 = document.createElement("span");
+        FacePile0c5c9c5c7c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c5c9c5c7c1c0.innerHTML += "Skype:";
+        FacePile0c5c9c5c7c1.appendChild(FacePile0c5c9c5c7c1c0);
+        FacePile0c5c9c5c7c1.innerHTML += " ";
+        var FacePile0c5c9c5c7c1c2 = document.createElement("a");
+        FacePile0c5c9c5c7c1c2.setAttribute("class", "ms-Link");
+        FacePile0c5c9c5c7c1c2.setAttribute("href", "#");
+        FacePile0c5c9c5c7c1c2.innerHTML += "Start Skype call";
+        FacePile0c5c9c5c7c1.appendChild(FacePile0c5c9c5c7c1c2);
+        FacePile0c5c9c5c7.appendChild(FacePile0c5c9c5c7c1);
+        FacePile0c5c9c5c7.innerHTML += "              ";
+        FacePile0c5c9c5.appendChild(FacePile0c5c9c5c7);
+        FacePile0c5c9c5.innerHTML += "                ";
+        FacePile0c5c9c5.innerHTML += "              ";
+        var FacePile0c5c9c5c11 = document.createElement("div");
+        FacePile0c5c9c5c11.setAttribute("data-detail-id", "org");
+        FacePile0c5c9c5c11.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c5c9c5c11.innerHTML += "                ";
+        FacePile0c5c9c5c11.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3.setAttribute("class", "ms-OrgChart ");
+        FacePile0c5c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c5c9c5c11c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c5c9c5c11c3c1.innerHTML += "                                            ";
+        var FacePile0c5c9c5c11c3c1c1 = document.createElement("ul");
+        FacePile0c5c9c5c11c3c1c1.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c5c9c5c11c3c1c1.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c1c1c1 = document.createElement("li");
+        FacePile0c5c9c5c11c3c1c1c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c1c1c1.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c1c1c1c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c1c1c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c1c1c1c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c1c1c1c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c1c1c1c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c1c1);
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c1c3);
+        FacePile0c5c9c5c11c3c1c1c1c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c1);
+        FacePile0c5c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c3);
+        FacePile0c5c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5c1.innerHTML += "Russel Miller";
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c5c1);
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c1c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5c3.innerHTML += "Sales";
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c5c3);
+        FacePile0c5c9c5c11c3c1c1c1c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3c5);
+        FacePile0c5c9c5c11c3c1c1c1c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c1c1c1c1.appendChild(FacePile0c5c9c5c11c3c1c1c1c1c3);
+        FacePile0c5c9c5c11c3c1c1c1c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c1c1c1.appendChild(FacePile0c5c9c5c11c3c1c1c1c1);
+        FacePile0c5c9c5c11c3c1c1c1.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c1c1.appendChild(FacePile0c5c9c5c11c3c1c1c1);
+        FacePile0c5c9c5c11c3c1c1.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c1c1c3 = document.createElement("li");
+        FacePile0c5c9c5c11c3c1c1c3.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c1c1c3.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c1c1c3c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c1c1c3c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c1c1c3c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c1c1c3c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c1c1c3c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c1c1);
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c1c3);
+        FacePile0c5c9c5c11c3c1c1c3c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c1);
+        FacePile0c5c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c3);
+        FacePile0c5c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5c1.innerHTML += "Douglas Fielder";
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c5c1);
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c1c1c3c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5c3.innerHTML += "Public Relations";
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c5c3);
+        FacePile0c5c9c5c11c3c1c1c3c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3c5);
+        FacePile0c5c9c5c11c3c1c1c3c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c1c1c3c1c3);
+        FacePile0c5c9c5c11c3c1c1c3c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c1c1c3c1);
+        FacePile0c5c9c5c11c3c1c1c3.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c1c1.appendChild(FacePile0c5c9c5c11c3c1c1c3);
+        FacePile0c5c9c5c11c3c1c1.innerHTML += "                      ";
+        FacePile0c5c9c5c11c3c1.appendChild(FacePile0c5c9c5c11c3c1c1);
+        FacePile0c5c9c5c11c3c1.innerHTML += "                    ";
+        FacePile0c5c9c5c11c3.appendChild(FacePile0c5c9c5c11c3c1);
+        FacePile0c5c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c5c9c5c11c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c5c9c5c11c3c3.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c1.setAttribute("class", "ms-OrgChart-groupTitle");
+        FacePile0c5c9c5c11c3c3c1.innerHTML += "Manager";
+        FacePile0c5c9c5c11c3c3.appendChild(FacePile0c5c9c5c11c3c3c1);
+        FacePile0c5c9c5c11c3c3.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c3c3 = document.createElement("ul");
+        FacePile0c5c9c5c11c3c3c3.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c5c9c5c11c3c3c3.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c3c3c1 = document.createElement("li");
+        FacePile0c5c9c5c11c3c3c3c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c3c3c1.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c3c3c1c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c3c3c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c3c3c1c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c3c3c1c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c3c3c1c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c1c1);
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c1c3);
+        FacePile0c5c9c5c11c3c3c3c1c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c1);
+        FacePile0c5c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c3);
+        FacePile0c5c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5c1.innerHTML += "Grant Steel";
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c5c1);
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c3c3c1c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5c3.innerHTML += "Sales";
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c5c3);
+        FacePile0c5c9c5c11c3c3c3c1c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3c5);
+        FacePile0c5c9c5c11c3c3c3c1c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c3c3c1c1.appendChild(FacePile0c5c9c5c11c3c3c3c1c1c3);
+        FacePile0c5c9c5c11c3c3c3c1c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c3c3c1.appendChild(FacePile0c5c9c5c11c3c3c3c1c1);
+        FacePile0c5c9c5c11c3c3c3c1.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c3c3.appendChild(FacePile0c5c9c5c11c3c3c3c1);
+        FacePile0c5c9c5c11c3c3c3.innerHTML += "                      ";
+        FacePile0c5c9c5c11c3c3.appendChild(FacePile0c5c9c5c11c3c3c3);
+        FacePile0c5c9c5c11c3c3.innerHTML += "                    ";
+        FacePile0c5c9c5c11c3.appendChild(FacePile0c5c9c5c11c3c3);
+        FacePile0c5c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c5c9c5c11c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c5c9c5c11c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c1.setAttribute("class", "ms-OrgChart-groupTitle");
+        FacePile0c5c9c5c11c3c5c1.innerHTML += "Staff";
+        FacePile0c5c9c5c11c3c5.appendChild(FacePile0c5c9c5c11c3c5c1);
+        FacePile0c5c9c5c11c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3 = document.createElement("ul");
+        FacePile0c5c9c5c11c3c5c3.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c5c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c5c3c1 = document.createElement("li");
+        FacePile0c5c9c5c11c3c5c3c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c5c3c1.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c5c3c1c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c5c3c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c5c3c1c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c5c3c1c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c5c3c1c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c1c1);
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c1c3);
+        FacePile0c5c9c5c11c3c5c3c1c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c1);
+        FacePile0c5c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c3);
+        FacePile0c5c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5c1.innerHTML += "Harvey Wallin";
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c5c1);
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c1c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5c3.innerHTML += "Public Relations";
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c5c3);
+        FacePile0c5c9c5c11c3c5c3c1c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3c5);
+        FacePile0c5c9c5c11c3c5c3c1c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c5c3c1c1.appendChild(FacePile0c5c9c5c11c3c5c3c1c1c3);
+        FacePile0c5c9c5c11c3c5c3c1c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c5c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c1c1);
+        FacePile0c5c9c5c11c3c5c3c1.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c5c3.appendChild(FacePile0c5c9c5c11c3c5c3c1);
+        FacePile0c5c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c5c3c3 = document.createElement("li");
+        FacePile0c5c9c5c11c3c5c3c3.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c5c3c3.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c5c3c3c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c5c3c3c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c5c3c3c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c5c3c3c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c5c3c3c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c1c1);
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c1c3);
+        FacePile0c5c9c5c11c3c5c3c3c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c1);
+        FacePile0c5c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c3);
+        FacePile0c5c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5c1.innerHTML += "Marcus Lauer";
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c5c1);
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c3c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5c3.innerHTML += "Technical Support";
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c5c3);
+        FacePile0c5c9c5c11c3c5c3c3c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3c5);
+        FacePile0c5c9c5c11c3c5c3c3c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c5c3c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c3c1c3);
+        FacePile0c5c9c5c11c3c5c3c3c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c5c3c3.appendChild(FacePile0c5c9c5c11c3c5c3c3c1);
+        FacePile0c5c9c5c11c3c5c3c3.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c5c3.appendChild(FacePile0c5c9c5c11c3c5c3c3);
+        FacePile0c5c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c5c3c5 = document.createElement("li");
+        FacePile0c5c9c5c11c3c5c3c5.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c5c3c5.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c5c3c5c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c5c3c5c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c5c3c5c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c5c3c5c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c5c3c5c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c1c1);
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c1c3);
+        FacePile0c5c9c5c11c3c5c3c5c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c1);
+        FacePile0c5c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c3);
+        FacePile0c5c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5c1.innerHTML += "Marcel Groce";
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c5c1);
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c5c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5c3.innerHTML += "Delivery";
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c5c3);
+        FacePile0c5c9c5c11c3c5c3c5c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3c5);
+        FacePile0c5c9c5c11c3c5c3c5c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c5c3c5c1.appendChild(FacePile0c5c9c5c11c3c5c3c5c1c3);
+        FacePile0c5c9c5c11c3c5c3c5c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c5c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c5c1);
+        FacePile0c5c9c5c11c3c5c3c5.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c5c3.appendChild(FacePile0c5c9c5c11c3c5c3c5);
+        FacePile0c5c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c5c9c5c11c3c5c3c7 = document.createElement("li");
+        FacePile0c5c9c5c11c3c5c3c7.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c5c9c5c11c3c5c3c7.innerHTML += "                            ";
+        var FacePile0c5c9c5c11c3c5c3c7c1 = document.createElement("button");
+        FacePile0c5c9c5c11c3c5c3c7c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c5c9c5c11c3c5c3c7c1.setAttribute("tabindex", "1");
+        FacePile0c5c9c5c11c3c5c3c7c1.innerHTML += "                              ";
+        FacePile0c5c9c5c11c3c5c3c7c1.innerHTML += "                                ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c5c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c1c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1c1.innerHTML += "RM";
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c1c1);
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c1c3 = document.createElement("img");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c1c3);
+        FacePile0c5c9c5c11c3c5c3c7c1c3c1.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c1);
+        FacePile0c5c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c3.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c3);
+        FacePile0c5c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c5 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c5c1 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5c1.innerHTML += "Jessica Fischer";
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c5c1);
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5.innerHTML += "                      ";
+        var FacePile0c5c9c5c11c3c5c3c7c1c3c5c3 = document.createElement("div");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5c3.innerHTML += "Marketing";
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c5c3);
+        FacePile0c5c9c5c11c3c5c3c7c1c3c5.innerHTML += "                  ";
+        FacePile0c5c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3c5);
+        FacePile0c5c9c5c11c3c5c3c7c1c3.innerHTML += "                ";
+        FacePile0c5c9c5c11c3c5c3c7c1.appendChild(FacePile0c5c9c5c11c3c5c3c7c1c3);
+        FacePile0c5c9c5c11c3c5c3c7c1.innerHTML += "                                            ";
+        FacePile0c5c9c5c11c3c5c3c7.appendChild(FacePile0c5c9c5c11c3c5c3c7c1);
+        FacePile0c5c9c5c11c3c5c3c7.innerHTML += "                          ";
+        FacePile0c5c9c5c11c3c5c3.appendChild(FacePile0c5c9c5c11c3c5c3c7);
+        FacePile0c5c9c5c11c3c5c3.innerHTML += "                      ";
+        FacePile0c5c9c5c11c3c5.appendChild(FacePile0c5c9c5c11c3c5c3);
+        FacePile0c5c9c5c11c3c5.innerHTML += "                    ";
+        FacePile0c5c9c5c11c3.appendChild(FacePile0c5c9c5c11c3c5);
+        FacePile0c5c9c5c11c3.innerHTML += "                ";
+        FacePile0c5c9c5c11.appendChild(FacePile0c5c9c5c11c3);
+        FacePile0c5c9c5c11.innerHTML += "    ";
+        FacePile0c5c9c5.appendChild(FacePile0c5c9c5c11);
+        FacePile0c5c9c5.innerHTML += "            ";
+        FacePile0c5c9.appendChild(FacePile0c5c9c5);
+        FacePile0c5c9.innerHTML += "          ";
+        FacePile0c5.appendChild(FacePile0c5c9);
         FacePile0c5.innerHTML += "      ";
         FacePile0.appendChild(FacePile0c5);
         FacePile0.innerHTML += "      ";
         FacePile0.innerHTML += "            ";
         var FacePile0c9 = document.createElement("div");
-        FacePile0c9.setAttribute("class", "ms-Persona      ");
+        FacePile0c9.setAttribute("class", "ms-Persona            ms-Persona--facePile        ");
         FacePile0c9.innerHTML += "        ";
         var FacePile0c9c1 = document.createElement("div");
         FacePile0c9c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c1.innerHTML += "            ";
+        var FacePile0c9c1c1 = document.createElement("div");
+        FacePile0c9c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--purple");
+        FacePile0c9c1c1.innerHTML += "ML";
+        FacePile0c9c1.appendChild(FacePile0c9c1c1);
         FacePile0c9c1.innerHTML += "        ";
         FacePile0c9.appendChild(FacePile0c9c1);
         FacePile0c9.innerHTML += "        ";
@@ -1289,17 +1965,678 @@ var FabricTemplateLibrary = (function () {
         FacePile0c9.innerHTML += "        ";
         var FacePile0c9c5 = document.createElement("div");
         FacePile0c9c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c5.innerHTML += "            ";
+        var FacePile0c9c5c1 = document.createElement("div");
+        FacePile0c9c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c5c1.innerHTML += "Marcus Lauer";
+        FacePile0c9c5.appendChild(FacePile0c9c5c1);
+        FacePile0c9c5.innerHTML += "            ";
+        var FacePile0c9c5c3 = document.createElement("div");
+        FacePile0c9c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c5c3.innerHTML += "Accountant";
+        FacePile0c9c5.appendChild(FacePile0c9c5c3);
         FacePile0c9c5.innerHTML += "        ";
         FacePile0c9.appendChild(FacePile0c9c5);
+        FacePile0c9.innerHTML += "          ";
+        FacePile0c9.innerHTML += "          ";
+        var FacePile0c9c9 = document.createElement("div");
+        FacePile0c9c9.setAttribute("class", "ms-PersonaCard ");
+        FacePile0c9c9.innerHTML += "            ";
+        var FacePile0c9c9c1 = document.createElement("div");
+        FacePile0c9c9c1.setAttribute("class", "ms-PersonaCard-persona");
+        FacePile0c9c9c1.innerHTML += "              ";
+        FacePile0c9c9c1.innerHTML += "                            ";
+        var FacePile0c9c9c1c3 = document.createElement("div");
+        FacePile0c9c9c1c3.setAttribute("class", "ms-Persona                    ms-Persona--lg                ");
+        FacePile0c9c9c1c3.innerHTML += "                ";
+        var FacePile0c9c9c1c3c1 = document.createElement("div");
+        FacePile0c9c9c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c1c3c1.innerHTML += "                    ";
+        var FacePile0c9c9c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--purple");
+        FacePile0c9c9c1c3c1c1.innerHTML += "ML";
+        FacePile0c9c9c1c3c1.appendChild(FacePile0c9c9c1c3c1c1);
+        FacePile0c9c9c1c3c1.innerHTML += "                ";
+        FacePile0c9c9c1c3.appendChild(FacePile0c9c9c1c3c1);
+        FacePile0c9c9c1c3.innerHTML += "                ";
+        var FacePile0c9c9c1c3c3 = document.createElement("div");
+        FacePile0c9c9c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c1c3c3.innerHTML += "                ";
+        FacePile0c9c9c1c3.appendChild(FacePile0c9c9c1c3c3);
+        FacePile0c9c9c1c3.innerHTML += "                ";
+        var FacePile0c9c9c1c3c5 = document.createElement("div");
+        FacePile0c9c9c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c9c9c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c1c3c5c1.innerHTML += "Marcus Lauer";
+        FacePile0c9c9c1c3c5.appendChild(FacePile0c9c9c1c3c5c1);
+        FacePile0c9c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c9c9c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c1c3c5c3.innerHTML += "Accountant";
+        FacePile0c9c9c1c3c5.appendChild(FacePile0c9c9c1c3c5c3);
+        FacePile0c9c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c9c9c1c3c5c5 = document.createElement("div");
+        FacePile0c9c9c1c3c5c5.setAttribute("class", "ms-Persona-tertiaryText");
+        FacePile0c9c9c1c3c5c5.innerHTML += "In a meeting";
+        FacePile0c9c9c1c3c5.appendChild(FacePile0c9c9c1c3c5c5);
+        FacePile0c9c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c9c9c1c3c5c7 = document.createElement("div");
+        FacePile0c9c9c1c3c5c7.setAttribute("class", "ms-Persona-optionalText");
+        FacePile0c9c9c1c3c5c7.innerHTML += "Available at 4:00pm";
+        FacePile0c9c9c1c3c5.appendChild(FacePile0c9c9c1c3c5c7);
+        FacePile0c9c9c1c3c5.innerHTML += "                ";
+        FacePile0c9c9c1c3.appendChild(FacePile0c9c9c1c3c5);
+        FacePile0c9c9c1c3.innerHTML += "              ";
+        FacePile0c9c9c1.appendChild(FacePile0c9c9c1c3);
+        FacePile0c9c9c1.innerHTML += "            ";
+        FacePile0c9c9.appendChild(FacePile0c9c9c1);
+        FacePile0c9c9.innerHTML += "            ";
+        var FacePile0c9c9c3 = document.createElement("ul");
+        FacePile0c9c9c3.setAttribute("class", "ms-PersonaCard-actions");
+        FacePile0c9c9c3.innerHTML += "              ";
+        var FacePile0c9c9c3c1 = document.createElement("li");
+        FacePile0c9c9c3c1.setAttribute("data-action-id", "chat");
+        FacePile0c9c9c3c1.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c9c9c3c1.setAttribute("tabindex", "1");
+        var FacePile0c9c9c3c1c0 = document.createElement("i");
+        FacePile0c9c9c3c1c0.setAttribute("class", "ms-Icon ms-Icon--chat");
+        FacePile0c9c9c3c1.appendChild(FacePile0c9c9c3c1c0);
+        FacePile0c9c9c3.appendChild(FacePile0c9c9c3c1);
+        FacePile0c9c9c3.innerHTML += "              ";
+        var FacePile0c9c9c3c3 = document.createElement("li");
+        FacePile0c9c9c3c3.setAttribute("data-action-id", "phone");
+        FacePile0c9c9c3c3.setAttribute("class", "ms-PersonaCard-action is-active");
+        FacePile0c9c9c3c3.setAttribute("tabindex", "2");
+        var FacePile0c9c9c3c3c0 = document.createElement("i");
+        FacePile0c9c9c3c3c0.setAttribute("class", "ms-Icon ms-Icon--phone");
+        FacePile0c9c9c3c3.appendChild(FacePile0c9c9c3c3c0);
+        FacePile0c9c9c3.appendChild(FacePile0c9c9c3c3);
+        FacePile0c9c9c3.innerHTML += "              ";
+        var FacePile0c9c9c3c5 = document.createElement("li");
+        FacePile0c9c9c3c5.setAttribute("data-action-id", "video");
+        FacePile0c9c9c3c5.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c9c9c3c5.setAttribute("tabindex", "3");
+        var FacePile0c9c9c3c5c0 = document.createElement("i");
+        FacePile0c9c9c3c5c0.setAttribute("class", "ms-Icon ms-Icon--video");
+        FacePile0c9c9c3c5.appendChild(FacePile0c9c9c3c5c0);
+        FacePile0c9c9c3.appendChild(FacePile0c9c9c3c5);
+        FacePile0c9c9c3.innerHTML += "              ";
+        var FacePile0c9c9c3c7 = document.createElement("li");
+        FacePile0c9c9c3c7.setAttribute("data-action-id", "mail");
+        FacePile0c9c9c3c7.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c9c9c3c7.setAttribute("tabindex", "4");
+        var FacePile0c9c9c3c7c0 = document.createElement("i");
+        FacePile0c9c9c3c7c0.setAttribute("class", "ms-Icon ms-Icon--mail");
+        FacePile0c9c9c3c7.appendChild(FacePile0c9c9c3c7c0);
+        FacePile0c9c9c3.appendChild(FacePile0c9c9c3c7);
+        FacePile0c9c9c3.innerHTML += "              ";
+        var FacePile0c9c9c3c9 = document.createElement("li");
+        FacePile0c9c9c3c9.setAttribute("class", "ms-PersonaCard-overflow");
+        FacePile0c9c9c3c9.setAttribute("alt", "View profile in Delve");
+        FacePile0c9c9c3c9.setAttribute("title", "View profile in Delve");
+        FacePile0c9c9c3c9.innerHTML += "View profile";
+        FacePile0c9c9c3.appendChild(FacePile0c9c9c3c9);
+        FacePile0c9c9c3.innerHTML += "              ";
+        var FacePile0c9c9c3c11 = document.createElement("li");
+        FacePile0c9c9c3c11.setAttribute("data-action-id", "org");
+        FacePile0c9c9c3c11.setAttribute("class", "ms-PersonaCard-action ms-PersonaCard-orgChart");
+        FacePile0c9c9c3c11.setAttribute("tabindex", "5");
+        var FacePile0c9c9c3c11c0 = document.createElement("i");
+        FacePile0c9c9c3c11c0.setAttribute("class", "ms-Icon ms-Icon--org");
+        FacePile0c9c9c3c11.appendChild(FacePile0c9c9c3c11c0);
+        FacePile0c9c9c3.appendChild(FacePile0c9c9c3c11);
+        FacePile0c9c9c3.innerHTML += "            ";
+        FacePile0c9c9.appendChild(FacePile0c9c9c3);
+        FacePile0c9c9.innerHTML += "            ";
+        var FacePile0c9c9c5 = document.createElement("div");
+        FacePile0c9c9c5.setAttribute("class", "ms-PersonaCard-actionDetailBox");
+        FacePile0c9c9c5.innerHTML += "              ";
+        var FacePile0c9c9c5c1 = document.createElement("div");
+        FacePile0c9c9c5c1.setAttribute("data-detail-id", "mail");
+        FacePile0c9c9c5c1.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c9c9c5c1.innerHTML += "                ";
+        var FacePile0c9c9c5c1c1 = document.createElement("div");
+        FacePile0c9c9c5c1c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c1c1c0 = document.createElement("span");
+        FacePile0c9c9c5c1c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c1c1c0.innerHTML += "Personal:";
+        FacePile0c9c9c5c1c1.appendChild(FacePile0c9c9c5c1c1c0);
+        FacePile0c9c9c5c1c1.innerHTML += " ";
+        var FacePile0c9c9c5c1c1c2 = document.createElement("a");
+        FacePile0c9c9c5c1c1c2.setAttribute("class", "ms-Link");
+        FacePile0c9c9c5c1c1c2.setAttribute("href", "mailto:alton.lafferty@outlook.com");
+        FacePile0c9c9c5c1c1c2.innerHTML += "alton.lafferty@outlook.com";
+        FacePile0c9c9c5c1c1.appendChild(FacePile0c9c9c5c1c1c2);
+        FacePile0c9c9c5c1.appendChild(FacePile0c9c9c5c1c1);
+        FacePile0c9c9c5c1.innerHTML += "                ";
+        var FacePile0c9c9c5c1c3 = document.createElement("div");
+        FacePile0c9c9c5c1c3.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c1c3c0 = document.createElement("span");
+        FacePile0c9c9c5c1c3c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c1c3c0.innerHTML += "Work:";
+        FacePile0c9c9c5c1c3.appendChild(FacePile0c9c9c5c1c3c0);
+        FacePile0c9c9c5c1c3.innerHTML += " ";
+        var FacePile0c9c9c5c1c3c2 = document.createElement("a");
+        FacePile0c9c9c5c1c3c2.setAttribute("class", "ms-Link");
+        FacePile0c9c9c5c1c3c2.setAttribute("href", "mailto:alton.lafferty@outlook.com");
+        FacePile0c9c9c5c1c3c2.innerHTML += "altonlafferty@contoso.com";
+        FacePile0c9c9c5c1c3.appendChild(FacePile0c9c9c5c1c3c2);
+        FacePile0c9c9c5c1.appendChild(FacePile0c9c9c5c1c3);
+        FacePile0c9c9c5c1.innerHTML += "              ";
+        FacePile0c9c9c5.appendChild(FacePile0c9c9c5c1);
+        FacePile0c9c9c5.innerHTML += "              ";
+        var FacePile0c9c9c5c3 = document.createElement("div");
+        FacePile0c9c9c5c3.setAttribute("data-detail-id", "chat");
+        FacePile0c9c9c5c3.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c9c9c5c3.innerHTML += "                ";
+        var FacePile0c9c9c5c3c1 = document.createElement("div");
+        FacePile0c9c9c5c3c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c3c1c0 = document.createElement("span");
+        FacePile0c9c9c5c3c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c3c1c0.innerHTML += "Lync:";
+        FacePile0c9c9c5c3c1.appendChild(FacePile0c9c9c5c3c1c0);
+        FacePile0c9c9c5c3c1.innerHTML += " ";
+        var FacePile0c9c9c5c3c1c2 = document.createElement("a");
+        FacePile0c9c9c5c3c1c2.setAttribute("class", "ms-Link");
+        FacePile0c9c9c5c3c1c2.setAttribute("href", "#");
+        FacePile0c9c9c5c3c1c2.innerHTML += "Start Lync call";
+        FacePile0c9c9c5c3c1.appendChild(FacePile0c9c9c5c3c1c2);
+        FacePile0c9c9c5c3.appendChild(FacePile0c9c9c5c3c1);
+        FacePile0c9c9c5c3.innerHTML += "              ";
+        FacePile0c9c9c5.appendChild(FacePile0c9c9c5c3);
+        FacePile0c9c9c5.innerHTML += "              ";
+        var FacePile0c9c9c5c5 = document.createElement("div");
+        FacePile0c9c9c5c5.setAttribute("data-detail-id", "phone");
+        FacePile0c9c9c5c5.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c9c9c5c5.innerHTML += "                ";
+        var FacePile0c9c9c5c5c1 = document.createElement("div");
+        FacePile0c9c9c5c5c1.setAttribute("class", "ms-PersonaCard-detailExpander");
+        FacePile0c9c9c5c5.appendChild(FacePile0c9c9c5c5c1);
+        FacePile0c9c9c5c5.innerHTML += "                ";
+        var FacePile0c9c9c5c5c3 = document.createElement("div");
+        FacePile0c9c9c5c5c3.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c5c3c0 = document.createElement("span");
+        FacePile0c9c9c5c5c3c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c5c3c0.innerHTML += "Details";
+        FacePile0c9c9c5c5c3.appendChild(FacePile0c9c9c5c5c3c0);
+        FacePile0c9c9c5c5.appendChild(FacePile0c9c9c5c5c3);
+        FacePile0c9c9c5c5.innerHTML += "                ";
+        var FacePile0c9c9c5c5c5 = document.createElement("div");
+        FacePile0c9c9c5c5c5.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c5c5c0 = document.createElement("span");
+        FacePile0c9c9c5c5c5c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c5c5c0.innerHTML += "Personal:";
+        FacePile0c9c9c5c5c5.appendChild(FacePile0c9c9c5c5c5c0);
+        FacePile0c9c9c5c5c5.innerHTML += " 555.206.2443";
+        FacePile0c9c9c5c5.appendChild(FacePile0c9c9c5c5c5);
+        FacePile0c9c9c5c5.innerHTML += "                ";
+        var FacePile0c9c9c5c5c7 = document.createElement("div");
+        FacePile0c9c9c5c5c7.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c5c7c0 = document.createElement("span");
+        FacePile0c9c9c5c5c7c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c5c7c0.innerHTML += "Work:";
+        FacePile0c9c9c5c5c7.appendChild(FacePile0c9c9c5c5c7c0);
+        FacePile0c9c9c5c5c7.innerHTML += " 555.929.8240";
+        FacePile0c9c9c5c5.appendChild(FacePile0c9c9c5c5c7);
+        FacePile0c9c9c5c5.innerHTML += "              ";
+        FacePile0c9c9c5.appendChild(FacePile0c9c9c5c5);
+        FacePile0c9c9c5.innerHTML += "              ";
+        var FacePile0c9c9c5c7 = document.createElement("div");
+        FacePile0c9c9c5c7.setAttribute("data-detail-id", "video");
+        FacePile0c9c9c5c7.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c9c9c5c7.innerHTML += "                ";
+        var FacePile0c9c9c5c7c1 = document.createElement("div");
+        FacePile0c9c9c5c7c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c9c9c5c7c1c0 = document.createElement("span");
+        FacePile0c9c9c5c7c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c9c9c5c7c1c0.innerHTML += "Skype:";
+        FacePile0c9c9c5c7c1.appendChild(FacePile0c9c9c5c7c1c0);
+        FacePile0c9c9c5c7c1.innerHTML += " ";
+        var FacePile0c9c9c5c7c1c2 = document.createElement("a");
+        FacePile0c9c9c5c7c1c2.setAttribute("class", "ms-Link");
+        FacePile0c9c9c5c7c1c2.setAttribute("href", "#");
+        FacePile0c9c9c5c7c1c2.innerHTML += "Start Skype call";
+        FacePile0c9c9c5c7c1.appendChild(FacePile0c9c9c5c7c1c2);
+        FacePile0c9c9c5c7.appendChild(FacePile0c9c9c5c7c1);
+        FacePile0c9c9c5c7.innerHTML += "              ";
+        FacePile0c9c9c5.appendChild(FacePile0c9c9c5c7);
+        FacePile0c9c9c5.innerHTML += "                ";
+        FacePile0c9c9c5.innerHTML += "              ";
+        var FacePile0c9c9c5c11 = document.createElement("div");
+        FacePile0c9c9c5c11.setAttribute("data-detail-id", "org");
+        FacePile0c9c9c5c11.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c9c9c5c11.innerHTML += "                ";
+        FacePile0c9c9c5c11.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3.setAttribute("class", "ms-OrgChart ");
+        FacePile0c9c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c9c9c5c11c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c9c9c5c11c3c1.innerHTML += "                                            ";
+        var FacePile0c9c9c5c11c3c1c1 = document.createElement("ul");
+        FacePile0c9c9c5c11c3c1c1.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c9c9c5c11c3c1c1.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c1c1c1 = document.createElement("li");
+        FacePile0c9c9c5c11c3c1c1c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c1c1c1.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c1c1c1c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c1c1c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c1c1c1c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c1c1c1c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c1c1c1c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c1c1);
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c1c3);
+        FacePile0c9c9c5c11c3c1c1c1c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c1);
+        FacePile0c9c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c3);
+        FacePile0c9c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5c1.innerHTML += "Russel Miller";
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c5c1);
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c1c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5c3.innerHTML += "Sales";
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c5c3);
+        FacePile0c9c9c5c11c3c1c1c1c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3c5);
+        FacePile0c9c9c5c11c3c1c1c1c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c1c1c1c1.appendChild(FacePile0c9c9c5c11c3c1c1c1c1c3);
+        FacePile0c9c9c5c11c3c1c1c1c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c1c1c1.appendChild(FacePile0c9c9c5c11c3c1c1c1c1);
+        FacePile0c9c9c5c11c3c1c1c1.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c1c1.appendChild(FacePile0c9c9c5c11c3c1c1c1);
+        FacePile0c9c9c5c11c3c1c1.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c1c1c3 = document.createElement("li");
+        FacePile0c9c9c5c11c3c1c1c3.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c1c1c3.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c1c1c3c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c1c1c3c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c1c1c3c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c1c1c3c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c1c1c3c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c1c1);
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c1c3);
+        FacePile0c9c9c5c11c3c1c1c3c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c1);
+        FacePile0c9c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c3);
+        FacePile0c9c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5c1.innerHTML += "Douglas Fielder";
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c5c1);
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c1c1c3c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5c3.innerHTML += "Public Relations";
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c5c3);
+        FacePile0c9c9c5c11c3c1c1c3c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3c5);
+        FacePile0c9c9c5c11c3c1c1c3c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c1c1c3c1c3);
+        FacePile0c9c9c5c11c3c1c1c3c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c1c1c3c1);
+        FacePile0c9c9c5c11c3c1c1c3.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c1c1.appendChild(FacePile0c9c9c5c11c3c1c1c3);
+        FacePile0c9c9c5c11c3c1c1.innerHTML += "                      ";
+        FacePile0c9c9c5c11c3c1.appendChild(FacePile0c9c9c5c11c3c1c1);
+        FacePile0c9c9c5c11c3c1.innerHTML += "                    ";
+        FacePile0c9c9c5c11c3.appendChild(FacePile0c9c9c5c11c3c1);
+        FacePile0c9c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c9c9c5c11c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c9c9c5c11c3c3.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c1.setAttribute("class", "ms-OrgChart-groupTitle");
+        FacePile0c9c9c5c11c3c3c1.innerHTML += "Manager";
+        FacePile0c9c9c5c11c3c3.appendChild(FacePile0c9c9c5c11c3c3c1);
+        FacePile0c9c9c5c11c3c3.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c3c3 = document.createElement("ul");
+        FacePile0c9c9c5c11c3c3c3.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c9c9c5c11c3c3c3.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c3c3c1 = document.createElement("li");
+        FacePile0c9c9c5c11c3c3c3c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c3c3c1.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c3c3c1c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c3c3c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c3c3c1c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c3c3c1c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c3c3c1c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c1c1);
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c1c3);
+        FacePile0c9c9c5c11c3c3c3c1c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c1);
+        FacePile0c9c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c3);
+        FacePile0c9c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5c1.innerHTML += "Grant Steel";
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c5c1);
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c3c3c1c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5c3.innerHTML += "Sales";
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c5c3);
+        FacePile0c9c9c5c11c3c3c3c1c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3c5);
+        FacePile0c9c9c5c11c3c3c3c1c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c3c3c1c1.appendChild(FacePile0c9c9c5c11c3c3c3c1c1c3);
+        FacePile0c9c9c5c11c3c3c3c1c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c3c3c1.appendChild(FacePile0c9c9c5c11c3c3c3c1c1);
+        FacePile0c9c9c5c11c3c3c3c1.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c3c3.appendChild(FacePile0c9c9c5c11c3c3c3c1);
+        FacePile0c9c9c5c11c3c3c3.innerHTML += "                      ";
+        FacePile0c9c9c5c11c3c3.appendChild(FacePile0c9c9c5c11c3c3c3);
+        FacePile0c9c9c5c11c3c3.innerHTML += "                    ";
+        FacePile0c9c9c5c11c3.appendChild(FacePile0c9c9c5c11c3c3);
+        FacePile0c9c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c9c9c5c11c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c9c9c5c11c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c1.setAttribute("class", "ms-OrgChart-groupTitle");
+        FacePile0c9c9c5c11c3c5c1.innerHTML += "Staff";
+        FacePile0c9c9c5c11c3c5.appendChild(FacePile0c9c9c5c11c3c5c1);
+        FacePile0c9c9c5c11c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3 = document.createElement("ul");
+        FacePile0c9c9c5c11c3c5c3.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c9c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c5c3c1 = document.createElement("li");
+        FacePile0c9c9c5c11c3c5c3c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c5c3c1.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c5c3c1c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c5c3c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c5c3c1c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c5c3c1c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c5c3c1c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c1c1);
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c1c3);
+        FacePile0c9c9c5c11c3c5c3c1c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c1);
+        FacePile0c9c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c3);
+        FacePile0c9c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5c1.innerHTML += "Harvey Wallin";
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c5c1);
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c1c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5c3.innerHTML += "Public Relations";
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c5c3);
+        FacePile0c9c9c5c11c3c5c3c1c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3c5);
+        FacePile0c9c9c5c11c3c5c3c1c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c5c3c1c1.appendChild(FacePile0c9c9c5c11c3c5c3c1c1c3);
+        FacePile0c9c9c5c11c3c5c3c1c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c5c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c1c1);
+        FacePile0c9c9c5c11c3c5c3c1.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c5c3.appendChild(FacePile0c9c9c5c11c3c5c3c1);
+        FacePile0c9c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c5c3c3 = document.createElement("li");
+        FacePile0c9c9c5c11c3c5c3c3.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c5c3c3.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c5c3c3c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c5c3c3c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c5c3c3c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c5c3c3c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c5c3c3c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c1c1);
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c1c3);
+        FacePile0c9c9c5c11c3c5c3c3c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c1);
+        FacePile0c9c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c3);
+        FacePile0c9c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5c1.innerHTML += "Marcus Lauer";
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c5c1);
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c3c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5c3.innerHTML += "Technical Support";
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c5c3);
+        FacePile0c9c9c5c11c3c5c3c3c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3c5);
+        FacePile0c9c9c5c11c3c5c3c3c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c5c3c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c3c1c3);
+        FacePile0c9c9c5c11c3c5c3c3c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c5c3c3.appendChild(FacePile0c9c9c5c11c3c5c3c3c1);
+        FacePile0c9c9c5c11c3c5c3c3.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c5c3.appendChild(FacePile0c9c9c5c11c3c5c3c3);
+        FacePile0c9c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c5c3c5 = document.createElement("li");
+        FacePile0c9c9c5c11c3c5c3c5.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c5c3c5.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c5c3c5c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c5c3c5c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c5c3c5c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c5c3c5c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c5c3c5c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c1c1);
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c1c3);
+        FacePile0c9c9c5c11c3c5c3c5c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c1);
+        FacePile0c9c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c3);
+        FacePile0c9c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5c1.innerHTML += "Marcel Groce";
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c5c1);
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c5c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5c3.innerHTML += "Delivery";
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c5c3);
+        FacePile0c9c9c5c11c3c5c3c5c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3c5);
+        FacePile0c9c9c5c11c3c5c3c5c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c5c3c5c1.appendChild(FacePile0c9c9c5c11c3c5c3c5c1c3);
+        FacePile0c9c9c5c11c3c5c3c5c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c5c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c5c1);
+        FacePile0c9c9c5c11c3c5c3c5.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c5c3.appendChild(FacePile0c9c9c5c11c3c5c3c5);
+        FacePile0c9c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c9c9c5c11c3c5c3c7 = document.createElement("li");
+        FacePile0c9c9c5c11c3c5c3c7.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c9c9c5c11c3c5c3c7.innerHTML += "                            ";
+        var FacePile0c9c9c5c11c3c5c3c7c1 = document.createElement("button");
+        FacePile0c9c9c5c11c3c5c3c7c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c9c9c5c11c3c5c3c7c1.setAttribute("tabindex", "1");
+        FacePile0c9c9c5c11c3c5c3c7c1.innerHTML += "                              ";
+        FacePile0c9c9c5c11c3c5c3c7c1.innerHTML += "                                ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c9c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c1c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1c1.innerHTML += "RM";
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c1c1);
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c1c3 = document.createElement("img");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c1c3);
+        FacePile0c9c9c5c11c3c5c3c7c1c3c1.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c1);
+        FacePile0c9c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c3.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c3);
+        FacePile0c9c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c5 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c5c1 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5c1.innerHTML += "Jessica Fischer";
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c5c1);
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5.innerHTML += "                      ";
+        var FacePile0c9c9c5c11c3c5c3c7c1c3c5c3 = document.createElement("div");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5c3.innerHTML += "Marketing";
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c5c3);
+        FacePile0c9c9c5c11c3c5c3c7c1c3c5.innerHTML += "                  ";
+        FacePile0c9c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3c5);
+        FacePile0c9c9c5c11c3c5c3c7c1c3.innerHTML += "                ";
+        FacePile0c9c9c5c11c3c5c3c7c1.appendChild(FacePile0c9c9c5c11c3c5c3c7c1c3);
+        FacePile0c9c9c5c11c3c5c3c7c1.innerHTML += "                                            ";
+        FacePile0c9c9c5c11c3c5c3c7.appendChild(FacePile0c9c9c5c11c3c5c3c7c1);
+        FacePile0c9c9c5c11c3c5c3c7.innerHTML += "                          ";
+        FacePile0c9c9c5c11c3c5c3.appendChild(FacePile0c9c9c5c11c3c5c3c7);
+        FacePile0c9c9c5c11c3c5c3.innerHTML += "                      ";
+        FacePile0c9c9c5c11c3c5.appendChild(FacePile0c9c9c5c11c3c5c3);
+        FacePile0c9c9c5c11c3c5.innerHTML += "                    ";
+        FacePile0c9c9c5c11c3.appendChild(FacePile0c9c9c5c11c3c5);
+        FacePile0c9c9c5c11c3.innerHTML += "                ";
+        FacePile0c9c9c5c11.appendChild(FacePile0c9c9c5c11c3);
+        FacePile0c9c9c5c11.innerHTML += "    ";
+        FacePile0c9c9c5.appendChild(FacePile0c9c9c5c11);
+        FacePile0c9c9c5.innerHTML += "            ";
+        FacePile0c9c9.appendChild(FacePile0c9c9c5);
+        FacePile0c9c9.innerHTML += "          ";
+        FacePile0c9.appendChild(FacePile0c9c9);
         FacePile0c9.innerHTML += "      ";
         FacePile0.appendChild(FacePile0c9);
         FacePile0.innerHTML += "      ";
         FacePile0.innerHTML += "            ";
         var FacePile0c13 = document.createElement("div");
-        FacePile0c13.setAttribute("class", "ms-Persona      ");
+        FacePile0c13.setAttribute("class", "ms-Persona            ms-Persona--facePile        ");
         FacePile0c13.innerHTML += "        ";
         var FacePile0c13c1 = document.createElement("div");
         FacePile0c13c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c1.innerHTML += "            ";
+        var FacePile0c13c1c1 = document.createElement("div");
+        FacePile0c13c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--green");
+        FacePile0c13c1c1.innerHTML += "DF";
+        FacePile0c13c1.appendChild(FacePile0c13c1c1);
         FacePile0c13c1.innerHTML += "        ";
         FacePile0c13.appendChild(FacePile0c13c1);
         FacePile0c13.innerHTML += "        ";
@@ -1310,13 +2647,674 @@ var FabricTemplateLibrary = (function () {
         FacePile0c13.innerHTML += "        ";
         var FacePile0c13c5 = document.createElement("div");
         FacePile0c13c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c5.innerHTML += "            ";
+        var FacePile0c13c5c1 = document.createElement("div");
+        FacePile0c13c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c5c1.innerHTML += "Alton Lafferty";
+        FacePile0c13c5.appendChild(FacePile0c13c5c1);
+        FacePile0c13c5.innerHTML += "            ";
+        var FacePile0c13c5c3 = document.createElement("div");
+        FacePile0c13c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c5c3.innerHTML += "Accountant";
+        FacePile0c13c5.appendChild(FacePile0c13c5c3);
         FacePile0c13c5.innerHTML += "        ";
         FacePile0c13.appendChild(FacePile0c13c5);
+        FacePile0c13.innerHTML += "          ";
+        FacePile0c13.innerHTML += "          ";
+        var FacePile0c13c9 = document.createElement("div");
+        FacePile0c13c9.setAttribute("class", "ms-PersonaCard ");
+        FacePile0c13c9.innerHTML += "            ";
+        var FacePile0c13c9c1 = document.createElement("div");
+        FacePile0c13c9c1.setAttribute("class", "ms-PersonaCard-persona");
+        FacePile0c13c9c1.innerHTML += "              ";
+        FacePile0c13c9c1.innerHTML += "                            ";
+        var FacePile0c13c9c1c3 = document.createElement("div");
+        FacePile0c13c9c1c3.setAttribute("class", "ms-Persona                    ms-Persona--lg                ");
+        FacePile0c13c9c1c3.innerHTML += "                ";
+        var FacePile0c13c9c1c3c1 = document.createElement("div");
+        FacePile0c13c9c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c1c3c1.innerHTML += "                    ";
+        var FacePile0c13c9c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c1c3c1c1.innerHTML += "AL";
+        FacePile0c13c9c1c3c1.appendChild(FacePile0c13c9c1c3c1c1);
+        FacePile0c13c9c1c3c1.innerHTML += "                    ";
+        var FacePile0c13c9c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c1c3c1.appendChild(FacePile0c13c9c1c3c1c3);
+        FacePile0c13c9c1c3c1.innerHTML += "                ";
+        FacePile0c13c9c1c3.appendChild(FacePile0c13c9c1c3c1);
+        FacePile0c13c9c1c3.innerHTML += "                ";
+        var FacePile0c13c9c1c3c3 = document.createElement("div");
+        FacePile0c13c9c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c1c3c3.innerHTML += "                ";
+        FacePile0c13c9c1c3.appendChild(FacePile0c13c9c1c3c3);
+        FacePile0c13c9c1c3.innerHTML += "                ";
+        var FacePile0c13c9c1c3c5 = document.createElement("div");
+        FacePile0c13c9c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c13c9c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c1c3c5c1.innerHTML += "Alton Lafferty";
+        FacePile0c13c9c1c3c5.appendChild(FacePile0c13c9c1c3c5c1);
+        FacePile0c13c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c13c9c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c1c3c5c3.innerHTML += "Accountant";
+        FacePile0c13c9c1c3c5.appendChild(FacePile0c13c9c1c3c5c3);
+        FacePile0c13c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c13c9c1c3c5c5 = document.createElement("div");
+        FacePile0c13c9c1c3c5c5.setAttribute("class", "ms-Persona-tertiaryText");
+        FacePile0c13c9c1c3c5c5.innerHTML += "In a meeting";
+        FacePile0c13c9c1c3c5.appendChild(FacePile0c13c9c1c3c5c5);
+        FacePile0c13c9c1c3c5.innerHTML += "                    ";
+        var FacePile0c13c9c1c3c5c7 = document.createElement("div");
+        FacePile0c13c9c1c3c5c7.setAttribute("class", "ms-Persona-optionalText");
+        FacePile0c13c9c1c3c5c7.innerHTML += "Available at 4:00pm";
+        FacePile0c13c9c1c3c5.appendChild(FacePile0c13c9c1c3c5c7);
+        FacePile0c13c9c1c3c5.innerHTML += "                ";
+        FacePile0c13c9c1c3.appendChild(FacePile0c13c9c1c3c5);
+        FacePile0c13c9c1c3.innerHTML += "              ";
+        FacePile0c13c9c1.appendChild(FacePile0c13c9c1c3);
+        FacePile0c13c9c1.innerHTML += "            ";
+        FacePile0c13c9.appendChild(FacePile0c13c9c1);
+        FacePile0c13c9.innerHTML += "            ";
+        var FacePile0c13c9c3 = document.createElement("ul");
+        FacePile0c13c9c3.setAttribute("class", "ms-PersonaCard-actions");
+        FacePile0c13c9c3.innerHTML += "              ";
+        var FacePile0c13c9c3c1 = document.createElement("li");
+        FacePile0c13c9c3c1.setAttribute("data-action-id", "chat");
+        FacePile0c13c9c3c1.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c13c9c3c1.setAttribute("tabindex", "1");
+        var FacePile0c13c9c3c1c0 = document.createElement("i");
+        FacePile0c13c9c3c1c0.setAttribute("class", "ms-Icon ms-Icon--chat");
+        FacePile0c13c9c3c1.appendChild(FacePile0c13c9c3c1c0);
+        FacePile0c13c9c3.appendChild(FacePile0c13c9c3c1);
+        FacePile0c13c9c3.innerHTML += "              ";
+        var FacePile0c13c9c3c3 = document.createElement("li");
+        FacePile0c13c9c3c3.setAttribute("data-action-id", "phone");
+        FacePile0c13c9c3c3.setAttribute("class", "ms-PersonaCard-action is-active");
+        FacePile0c13c9c3c3.setAttribute("tabindex", "2");
+        var FacePile0c13c9c3c3c0 = document.createElement("i");
+        FacePile0c13c9c3c3c0.setAttribute("class", "ms-Icon ms-Icon--phone");
+        FacePile0c13c9c3c3.appendChild(FacePile0c13c9c3c3c0);
+        FacePile0c13c9c3.appendChild(FacePile0c13c9c3c3);
+        FacePile0c13c9c3.innerHTML += "              ";
+        var FacePile0c13c9c3c5 = document.createElement("li");
+        FacePile0c13c9c3c5.setAttribute("data-action-id", "video");
+        FacePile0c13c9c3c5.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c13c9c3c5.setAttribute("tabindex", "3");
+        var FacePile0c13c9c3c5c0 = document.createElement("i");
+        FacePile0c13c9c3c5c0.setAttribute("class", "ms-Icon ms-Icon--video");
+        FacePile0c13c9c3c5.appendChild(FacePile0c13c9c3c5c0);
+        FacePile0c13c9c3.appendChild(FacePile0c13c9c3c5);
+        FacePile0c13c9c3.innerHTML += "              ";
+        var FacePile0c13c9c3c7 = document.createElement("li");
+        FacePile0c13c9c3c7.setAttribute("data-action-id", "mail");
+        FacePile0c13c9c3c7.setAttribute("class", "ms-PersonaCard-action");
+        FacePile0c13c9c3c7.setAttribute("tabindex", "4");
+        var FacePile0c13c9c3c7c0 = document.createElement("i");
+        FacePile0c13c9c3c7c0.setAttribute("class", "ms-Icon ms-Icon--mail");
+        FacePile0c13c9c3c7.appendChild(FacePile0c13c9c3c7c0);
+        FacePile0c13c9c3.appendChild(FacePile0c13c9c3c7);
+        FacePile0c13c9c3.innerHTML += "              ";
+        var FacePile0c13c9c3c9 = document.createElement("li");
+        FacePile0c13c9c3c9.setAttribute("class", "ms-PersonaCard-overflow");
+        FacePile0c13c9c3c9.setAttribute("alt", "View profile in Delve");
+        FacePile0c13c9c3c9.setAttribute("title", "View profile in Delve");
+        FacePile0c13c9c3c9.innerHTML += "View profile";
+        FacePile0c13c9c3.appendChild(FacePile0c13c9c3c9);
+        FacePile0c13c9c3.innerHTML += "              ";
+        var FacePile0c13c9c3c11 = document.createElement("li");
+        FacePile0c13c9c3c11.setAttribute("data-action-id", "org");
+        FacePile0c13c9c3c11.setAttribute("class", "ms-PersonaCard-action ms-PersonaCard-orgChart");
+        FacePile0c13c9c3c11.setAttribute("tabindex", "5");
+        var FacePile0c13c9c3c11c0 = document.createElement("i");
+        FacePile0c13c9c3c11c0.setAttribute("class", "ms-Icon ms-Icon--org");
+        FacePile0c13c9c3c11.appendChild(FacePile0c13c9c3c11c0);
+        FacePile0c13c9c3.appendChild(FacePile0c13c9c3c11);
+        FacePile0c13c9c3.innerHTML += "            ";
+        FacePile0c13c9.appendChild(FacePile0c13c9c3);
+        FacePile0c13c9.innerHTML += "            ";
+        var FacePile0c13c9c5 = document.createElement("div");
+        FacePile0c13c9c5.setAttribute("class", "ms-PersonaCard-actionDetailBox");
+        FacePile0c13c9c5.innerHTML += "              ";
+        var FacePile0c13c9c5c1 = document.createElement("div");
+        FacePile0c13c9c5c1.setAttribute("data-detail-id", "mail");
+        FacePile0c13c9c5c1.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c13c9c5c1.innerHTML += "                ";
+        var FacePile0c13c9c5c1c1 = document.createElement("div");
+        FacePile0c13c9c5c1c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c1c1c0 = document.createElement("span");
+        FacePile0c13c9c5c1c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c1c1c0.innerHTML += "Personal:";
+        FacePile0c13c9c5c1c1.appendChild(FacePile0c13c9c5c1c1c0);
+        FacePile0c13c9c5c1c1.innerHTML += " ";
+        var FacePile0c13c9c5c1c1c2 = document.createElement("a");
+        FacePile0c13c9c5c1c1c2.setAttribute("class", "ms-Link");
+        FacePile0c13c9c5c1c1c2.setAttribute("href", "mailto:alton.lafferty@outlook.com");
+        FacePile0c13c9c5c1c1c2.innerHTML += "alton.lafferty@outlook.com";
+        FacePile0c13c9c5c1c1.appendChild(FacePile0c13c9c5c1c1c2);
+        FacePile0c13c9c5c1.appendChild(FacePile0c13c9c5c1c1);
+        FacePile0c13c9c5c1.innerHTML += "                ";
+        var FacePile0c13c9c5c1c3 = document.createElement("div");
+        FacePile0c13c9c5c1c3.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c1c3c0 = document.createElement("span");
+        FacePile0c13c9c5c1c3c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c1c3c0.innerHTML += "Work:";
+        FacePile0c13c9c5c1c3.appendChild(FacePile0c13c9c5c1c3c0);
+        FacePile0c13c9c5c1c3.innerHTML += " ";
+        var FacePile0c13c9c5c1c3c2 = document.createElement("a");
+        FacePile0c13c9c5c1c3c2.setAttribute("class", "ms-Link");
+        FacePile0c13c9c5c1c3c2.setAttribute("href", "mailto:alton.lafferty@outlook.com");
+        FacePile0c13c9c5c1c3c2.innerHTML += "altonlafferty@contoso.com";
+        FacePile0c13c9c5c1c3.appendChild(FacePile0c13c9c5c1c3c2);
+        FacePile0c13c9c5c1.appendChild(FacePile0c13c9c5c1c3);
+        FacePile0c13c9c5c1.innerHTML += "              ";
+        FacePile0c13c9c5.appendChild(FacePile0c13c9c5c1);
+        FacePile0c13c9c5.innerHTML += "              ";
+        var FacePile0c13c9c5c3 = document.createElement("div");
+        FacePile0c13c9c5c3.setAttribute("data-detail-id", "chat");
+        FacePile0c13c9c5c3.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c13c9c5c3.innerHTML += "                ";
+        var FacePile0c13c9c5c3c1 = document.createElement("div");
+        FacePile0c13c9c5c3c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c3c1c0 = document.createElement("span");
+        FacePile0c13c9c5c3c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c3c1c0.innerHTML += "Lync:";
+        FacePile0c13c9c5c3c1.appendChild(FacePile0c13c9c5c3c1c0);
+        FacePile0c13c9c5c3c1.innerHTML += " ";
+        var FacePile0c13c9c5c3c1c2 = document.createElement("a");
+        FacePile0c13c9c5c3c1c2.setAttribute("class", "ms-Link");
+        FacePile0c13c9c5c3c1c2.setAttribute("href", "#");
+        FacePile0c13c9c5c3c1c2.innerHTML += "Start Lync call";
+        FacePile0c13c9c5c3c1.appendChild(FacePile0c13c9c5c3c1c2);
+        FacePile0c13c9c5c3.appendChild(FacePile0c13c9c5c3c1);
+        FacePile0c13c9c5c3.innerHTML += "              ";
+        FacePile0c13c9c5.appendChild(FacePile0c13c9c5c3);
+        FacePile0c13c9c5.innerHTML += "              ";
+        var FacePile0c13c9c5c5 = document.createElement("div");
+        FacePile0c13c9c5c5.setAttribute("data-detail-id", "phone");
+        FacePile0c13c9c5c5.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c13c9c5c5.innerHTML += "                ";
+        var FacePile0c13c9c5c5c1 = document.createElement("div");
+        FacePile0c13c9c5c5c1.setAttribute("class", "ms-PersonaCard-detailExpander");
+        FacePile0c13c9c5c5.appendChild(FacePile0c13c9c5c5c1);
+        FacePile0c13c9c5c5.innerHTML += "                ";
+        var FacePile0c13c9c5c5c3 = document.createElement("div");
+        FacePile0c13c9c5c5c3.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c5c3c0 = document.createElement("span");
+        FacePile0c13c9c5c5c3c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c5c3c0.innerHTML += "Details";
+        FacePile0c13c9c5c5c3.appendChild(FacePile0c13c9c5c5c3c0);
+        FacePile0c13c9c5c5.appendChild(FacePile0c13c9c5c5c3);
+        FacePile0c13c9c5c5.innerHTML += "                ";
+        var FacePile0c13c9c5c5c5 = document.createElement("div");
+        FacePile0c13c9c5c5c5.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c5c5c0 = document.createElement("span");
+        FacePile0c13c9c5c5c5c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c5c5c0.innerHTML += "Personal:";
+        FacePile0c13c9c5c5c5.appendChild(FacePile0c13c9c5c5c5c0);
+        FacePile0c13c9c5c5c5.innerHTML += " 555.206.2443";
+        FacePile0c13c9c5c5.appendChild(FacePile0c13c9c5c5c5);
+        FacePile0c13c9c5c5.innerHTML += "                ";
+        var FacePile0c13c9c5c5c7 = document.createElement("div");
+        FacePile0c13c9c5c5c7.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c5c7c0 = document.createElement("span");
+        FacePile0c13c9c5c5c7c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c5c7c0.innerHTML += "Work:";
+        FacePile0c13c9c5c5c7.appendChild(FacePile0c13c9c5c5c7c0);
+        FacePile0c13c9c5c5c7.innerHTML += " 555.929.8240";
+        FacePile0c13c9c5c5.appendChild(FacePile0c13c9c5c5c7);
+        FacePile0c13c9c5c5.innerHTML += "              ";
+        FacePile0c13c9c5.appendChild(FacePile0c13c9c5c5);
+        FacePile0c13c9c5.innerHTML += "              ";
+        var FacePile0c13c9c5c7 = document.createElement("div");
+        FacePile0c13c9c5c7.setAttribute("data-detail-id", "video");
+        FacePile0c13c9c5c7.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c13c9c5c7.innerHTML += "                ";
+        var FacePile0c13c9c5c7c1 = document.createElement("div");
+        FacePile0c13c9c5c7c1.setAttribute("class", "ms-PersonaCard-detailLine");
+        var FacePile0c13c9c5c7c1c0 = document.createElement("span");
+        FacePile0c13c9c5c7c1c0.setAttribute("class", "ms-PersonaCard-detailLabel");
+        FacePile0c13c9c5c7c1c0.innerHTML += "Skype:";
+        FacePile0c13c9c5c7c1.appendChild(FacePile0c13c9c5c7c1c0);
+        FacePile0c13c9c5c7c1.innerHTML += " ";
+        var FacePile0c13c9c5c7c1c2 = document.createElement("a");
+        FacePile0c13c9c5c7c1c2.setAttribute("class", "ms-Link");
+        FacePile0c13c9c5c7c1c2.setAttribute("href", "#");
+        FacePile0c13c9c5c7c1c2.innerHTML += "Start Skype call";
+        FacePile0c13c9c5c7c1.appendChild(FacePile0c13c9c5c7c1c2);
+        FacePile0c13c9c5c7.appendChild(FacePile0c13c9c5c7c1);
+        FacePile0c13c9c5c7.innerHTML += "              ";
+        FacePile0c13c9c5.appendChild(FacePile0c13c9c5c7);
+        FacePile0c13c9c5.innerHTML += "                ";
+        FacePile0c13c9c5.innerHTML += "              ";
+        var FacePile0c13c9c5c11 = document.createElement("div");
+        FacePile0c13c9c5c11.setAttribute("data-detail-id", "org");
+        FacePile0c13c9c5c11.setAttribute("class", "ms-PersonaCard-details");
+        FacePile0c13c9c5c11.innerHTML += "                ";
+        FacePile0c13c9c5c11.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3.setAttribute("class", "ms-OrgChart ");
+        FacePile0c13c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c13c9c5c11c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c13c9c5c11c3c1.innerHTML += "                                            ";
+        var FacePile0c13c9c5c11c3c1c1 = document.createElement("ul");
+        FacePile0c13c9c5c11c3c1c1.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c13c9c5c11c3c1c1.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c1c1c1 = document.createElement("li");
+        FacePile0c13c9c5c11c3c1c1c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c1c1c1.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c1c1c1c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c1c1c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c1c1c1c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c1c1c1c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c1c1c1c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c1c1);
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c1c3);
+        FacePile0c13c9c5c11c3c1c1c1c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c1);
+        FacePile0c13c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c3);
+        FacePile0c13c9c5c11c3c1c1c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5c1.innerHTML += "Russel Miller";
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c5c1);
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c1c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5c3.innerHTML += "Sales";
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c5c3);
+        FacePile0c13c9c5c11c3c1c1c1c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c1c1c1c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3c5);
+        FacePile0c13c9c5c11c3c1c1c1c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c1c1c1c1.appendChild(FacePile0c13c9c5c11c3c1c1c1c1c3);
+        FacePile0c13c9c5c11c3c1c1c1c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c1c1c1.appendChild(FacePile0c13c9c5c11c3c1c1c1c1);
+        FacePile0c13c9c5c11c3c1c1c1.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c1c1.appendChild(FacePile0c13c9c5c11c3c1c1c1);
+        FacePile0c13c9c5c11c3c1c1.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c1c1c3 = document.createElement("li");
+        FacePile0c13c9c5c11c3c1c1c3.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c1c1c3.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c1c1c3c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c1c1c3c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c1c1c3c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c1c1c3c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c1c1c3c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c1c1);
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c1c3);
+        FacePile0c13c9c5c11c3c1c1c3c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c1);
+        FacePile0c13c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c3);
+        FacePile0c13c9c5c11c3c1c1c3c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5c1.innerHTML += "Douglas Fielder";
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c5c1);
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c1c1c3c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5c3.innerHTML += "Public Relations";
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c5c3);
+        FacePile0c13c9c5c11c3c1c1c3c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c1c1c3c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3c5);
+        FacePile0c13c9c5c11c3c1c1c3c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c1c1c3c1c3);
+        FacePile0c13c9c5c11c3c1c1c3c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c1c1c3c1);
+        FacePile0c13c9c5c11c3c1c1c3.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c1c1.appendChild(FacePile0c13c9c5c11c3c1c1c3);
+        FacePile0c13c9c5c11c3c1c1.innerHTML += "                      ";
+        FacePile0c13c9c5c11c3c1.appendChild(FacePile0c13c9c5c11c3c1c1);
+        FacePile0c13c9c5c11c3c1.innerHTML += "                    ";
+        FacePile0c13c9c5c11c3.appendChild(FacePile0c13c9c5c11c3c1);
+        FacePile0c13c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c13c9c5c11c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c13c9c5c11c3c3.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c1.setAttribute("class", "ms-OrgChart-groupTitle");
+        FacePile0c13c9c5c11c3c3c1.innerHTML += "Manager";
+        FacePile0c13c9c5c11c3c3.appendChild(FacePile0c13c9c5c11c3c3c1);
+        FacePile0c13c9c5c11c3c3.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c3c3 = document.createElement("ul");
+        FacePile0c13c9c5c11c3c3c3.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c13c9c5c11c3c3c3.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c3c3c1 = document.createElement("li");
+        FacePile0c13c9c5c11c3c3c3c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c3c3c1.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c3c3c1c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c3c3c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c3c3c1c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c3c3c1c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c3c3c1c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c1c1);
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c1c3);
+        FacePile0c13c9c5c11c3c3c3c1c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c1);
+        FacePile0c13c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c3);
+        FacePile0c13c9c5c11c3c3c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5c1.innerHTML += "Grant Steel";
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c5c1);
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c3c3c1c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5c3.innerHTML += "Sales";
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c5c3);
+        FacePile0c13c9c5c11c3c3c3c1c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c3c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3c5);
+        FacePile0c13c9c5c11c3c3c3c1c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c3c3c1c1.appendChild(FacePile0c13c9c5c11c3c3c3c1c1c3);
+        FacePile0c13c9c5c11c3c3c3c1c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c3c3c1.appendChild(FacePile0c13c9c5c11c3c3c3c1c1);
+        FacePile0c13c9c5c11c3c3c3c1.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c3c3.appendChild(FacePile0c13c9c5c11c3c3c3c1);
+        FacePile0c13c9c5c11c3c3c3.innerHTML += "                      ";
+        FacePile0c13c9c5c11c3c3.appendChild(FacePile0c13c9c5c11c3c3c3);
+        FacePile0c13c9c5c11c3c3.innerHTML += "                    ";
+        FacePile0c13c9c5c11c3.appendChild(FacePile0c13c9c5c11c3c3);
+        FacePile0c13c9c5c11c3.innerHTML += "                    ";
+        var FacePile0c13c9c5c11c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5.setAttribute("class", "ms-OrgChart-group");
+        FacePile0c13c9c5c11c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c1.setAttribute("class", "ms-OrgChart-groupTitle");
+        FacePile0c13c9c5c11c3c5c1.innerHTML += "Staff";
+        FacePile0c13c9c5c11c3c5.appendChild(FacePile0c13c9c5c11c3c5c1);
+        FacePile0c13c9c5c11c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3 = document.createElement("ul");
+        FacePile0c13c9c5c11c3c5c3.setAttribute("class", "ms-OrgChart-list");
+        FacePile0c13c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c5c3c1 = document.createElement("li");
+        FacePile0c13c9c5c11c3c5c3c1.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c5c3c1.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c5c3c1c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c5c3c1c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c5c3c1c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c5c3c1c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c5c3c1c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c1c1);
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c1c3);
+        FacePile0c13c9c5c11c3c5c3c1c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c1);
+        FacePile0c13c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c3);
+        FacePile0c13c9c5c11c3c5c3c1c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5c1.innerHTML += "Harvey Wallin";
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c5c1);
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c1c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5c3.innerHTML += "Public Relations";
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c5c3);
+        FacePile0c13c9c5c11c3c5c3c1c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c1c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3c5);
+        FacePile0c13c9c5c11c3c5c3c1c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c5c3c1c1.appendChild(FacePile0c13c9c5c11c3c5c3c1c1c3);
+        FacePile0c13c9c5c11c3c5c3c1c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c5c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c1c1);
+        FacePile0c13c9c5c11c3c5c3c1.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c5c3.appendChild(FacePile0c13c9c5c11c3c5c3c1);
+        FacePile0c13c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c5c3c3 = document.createElement("li");
+        FacePile0c13c9c5c11c3c5c3c3.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c5c3c3.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c5c3c3c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c5c3c3c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c5c3c3c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c5c3c3c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c5c3c3c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c1c1);
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c1c3);
+        FacePile0c13c9c5c11c3c5c3c3c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c1);
+        FacePile0c13c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c3);
+        FacePile0c13c9c5c11c3c5c3c3c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5c1.innerHTML += "Marcus Lauer";
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c5c1);
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c3c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5c3.innerHTML += "Technical Support";
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c5c3);
+        FacePile0c13c9c5c11c3c5c3c3c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c3c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3c5);
+        FacePile0c13c9c5c11c3c5c3c3c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c5c3c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c3c1c3);
+        FacePile0c13c9c5c11c3c5c3c3c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c5c3c3.appendChild(FacePile0c13c9c5c11c3c5c3c3c1);
+        FacePile0c13c9c5c11c3c5c3c3.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c5c3.appendChild(FacePile0c13c9c5c11c3c5c3c3);
+        FacePile0c13c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c5c3c5 = document.createElement("li");
+        FacePile0c13c9c5c11c3c5c3c5.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c5c3c5.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c5c3c5c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c5c3c5c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c5c3c5c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c5c3c5c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c5c3c5c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c1c1);
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c1c3);
+        FacePile0c13c9c5c11c3c5c3c5c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c1);
+        FacePile0c13c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c3);
+        FacePile0c13c9c5c11c3c5c3c5c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5c1.innerHTML += "Marcel Groce";
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c5c1);
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c5c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5c3.innerHTML += "Delivery";
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c5c3);
+        FacePile0c13c9c5c11c3c5c3c5c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c5c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3c5);
+        FacePile0c13c9c5c11c3c5c3c5c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c5c3c5c1.appendChild(FacePile0c13c9c5c11c3c5c3c5c1c3);
+        FacePile0c13c9c5c11c3c5c3c5c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c5c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c5c1);
+        FacePile0c13c9c5c11c3c5c3c5.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c5c3.appendChild(FacePile0c13c9c5c11c3c5c3c5);
+        FacePile0c13c9c5c11c3c5c3.innerHTML += "                          ";
+        var FacePile0c13c9c5c11c3c5c3c7 = document.createElement("li");
+        FacePile0c13c9c5c11c3c5c3c7.setAttribute("class", "ms-OrgChart-listItem");
+        FacePile0c13c9c5c11c3c5c3c7.innerHTML += "                            ";
+        var FacePile0c13c9c5c11c3c5c3c7c1 = document.createElement("button");
+        FacePile0c13c9c5c11c3c5c3c7c1.setAttribute("class", "ms-OrgChart-listItemBtn");
+        FacePile0c13c9c5c11c3c5c3c7c1.setAttribute("tabindex", "1");
+        FacePile0c13c9c5c11c3c5c3c7c1.innerHTML += "                              ";
+        FacePile0c13c9c5c11c3c5c3c7c1.innerHTML += "                                ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3.setAttribute("class", "ms-Persona                ");
+        FacePile0c13c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1.setAttribute("class", "ms-Persona-imageArea");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c1c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1c1.setAttribute("class", "ms-Persona-initials ms-Persona-initials--blue");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1c1.innerHTML += "RM";
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c1c1);
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c1c3 = document.createElement("img");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1c3.setAttribute("class", "ms-Persona-image");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1c3.setAttribute("src", "../persona/Persona.Person2.png");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c1c3);
+        FacePile0c13c9c5c11c3c5c3c7c1c3c1.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c1);
+        FacePile0c13c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c3.setAttribute("class", "ms-Persona-presence");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c3.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c3);
+        FacePile0c13c9c5c11c3c5c3c7c1c3.innerHTML += "                  ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c5 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5.setAttribute("class", "ms-Persona-details");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c5c1 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5c1.setAttribute("class", "ms-Persona-primaryText");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5c1.innerHTML += "Jessica Fischer";
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c5c1);
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5.innerHTML += "                      ";
+        var FacePile0c13c9c5c11c3c5c3c7c1c3c5c3 = document.createElement("div");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5c3.setAttribute("class", "ms-Persona-secondaryText");
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5c3.innerHTML += "Marketing";
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c5c3);
+        FacePile0c13c9c5c11c3c5c3c7c1c3c5.innerHTML += "                  ";
+        FacePile0c13c9c5c11c3c5c3c7c1c3.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3c5);
+        FacePile0c13c9c5c11c3c5c3c7c1c3.innerHTML += "                ";
+        FacePile0c13c9c5c11c3c5c3c7c1.appendChild(FacePile0c13c9c5c11c3c5c3c7c1c3);
+        FacePile0c13c9c5c11c3c5c3c7c1.innerHTML += "                                            ";
+        FacePile0c13c9c5c11c3c5c3c7.appendChild(FacePile0c13c9c5c11c3c5c3c7c1);
+        FacePile0c13c9c5c11c3c5c3c7.innerHTML += "                          ";
+        FacePile0c13c9c5c11c3c5c3.appendChild(FacePile0c13c9c5c11c3c5c3c7);
+        FacePile0c13c9c5c11c3c5c3.innerHTML += "                      ";
+        FacePile0c13c9c5c11c3c5.appendChild(FacePile0c13c9c5c11c3c5c3);
+        FacePile0c13c9c5c11c3c5.innerHTML += "                    ";
+        FacePile0c13c9c5c11c3.appendChild(FacePile0c13c9c5c11c3c5);
+        FacePile0c13c9c5c11c3.innerHTML += "                ";
+        FacePile0c13c9c5c11.appendChild(FacePile0c13c9c5c11c3);
+        FacePile0c13c9c5c11.innerHTML += "    ";
+        FacePile0c13c9c5.appendChild(FacePile0c13c9c5c11);
+        FacePile0c13c9c5.innerHTML += "            ";
+        FacePile0c13c9.appendChild(FacePile0c13c9c5);
+        FacePile0c13c9.innerHTML += "          ";
+        FacePile0c13.appendChild(FacePile0c13c9);
         FacePile0c13.innerHTML += "      ";
         FacePile0.appendChild(FacePile0c13);
         FacePile0.innerHTML += "    ";
         var FacePile0c15 = document.createElement("button");
-        FacePile0c15.setAttribute("class", "ms-FacePile-addButton ms-FacePile-addButton--overflow js-overflowPanel");
+        FacePile0c15.setAttribute("class", "ms-FacePile-addButton ms-FacePile-addButton--overflow");
         FacePile0c15.innerHTML += "    ";
         var FacePile0c15c1 = document.createElement("span");
         FacePile0c15c1.setAttribute("class", "ms-FacePile-overflowText");
@@ -2058,15 +4056,10 @@ var FabricTemplateLibrary = (function () {
         var PanelHost0 = document.createElement("div");
         PanelHost0.setAttribute("class", "ms-PanelHost");
         PanelHost0.innerHTML += "  ";
-        var PanelHost0c1 = document.createElement("div");
-        PanelHost0c1.setAttribute("class", "ms-PanelHost-inner");
-        PanelHost0c1.innerHTML += "  ";
-        PanelHost0.appendChild(PanelHost0c1);
-        PanelHost0.innerHTML += "  ";
         PanelHost0.innerHTML += "    ";
-        var PanelHost0c5 = document.createElement("div");
-        PanelHost0c5.setAttribute("class", "ms-Overlay ");
-        PanelHost0.appendChild(PanelHost0c5);
+        var PanelHost0c3 = document.createElement("div");
+        PanelHost0c3.setAttribute("class", "ms-Overlay ");
+        PanelHost0.appendChild(PanelHost0c3);
         PanelHost0.innerHTML += "";
         return PanelHost0;
     };
@@ -2079,45 +4072,45 @@ var FabricTemplateLibrary = (function () {
         PeoplePicker0c1.innerHTML += "    ";
         PeoplePicker0c1.innerHTML += "        ";
         var PeoplePicker0c1c3 = document.createElement("div");
-        PeoplePicker0c1c3.setAttribute("class", "ms-TextField ");
+        PeoplePicker0c1c3.setAttribute("class", "ms-TextField  ");
         PeoplePicker0c1c3.innerHTML += "                            ";
         PeoplePicker0c1.appendChild(PeoplePicker0c1c3);
         PeoplePicker0c1.innerHTML += "  ";
         PeoplePicker0.appendChild(PeoplePicker0c1);
         PeoplePicker0.innerHTML += "  ";
         var PeoplePicker0c3 = document.createElement("div");
-        PeoplePicker0c3.setAttribute("class", "ms-PeoplePicker-results");
+        PeoplePicker0c3.setAttribute("class", "ms-PeoplePicker-results  ");
+        PeoplePicker0c3.innerHTML += "    ";
+        var PeoplePicker0c3c1 = document.createElement("div");
+        PeoplePicker0c3c1.setAttribute("class", "ms-PeoplePicker-searchMore");
+        PeoplePicker0c3c1.innerHTML += "      ";
+        var PeoplePicker0c3c1c1 = document.createElement("button");
+        PeoplePicker0c3c1c1.setAttribute("class", "ms-PeoplePicker-searchMoreBtn");
+        PeoplePicker0c3c1c1.innerHTML += "        ";
+        var PeoplePicker0c3c1c1c1 = document.createElement("div");
+        PeoplePicker0c3c1c1c1.setAttribute("class", "ms-PeoplePicker-searchMoreIcon");
+        PeoplePicker0c3c1c1c1.innerHTML += "          ";
+        var PeoplePicker0c3c1c1c1c1 = document.createElement("i");
+        PeoplePicker0c3c1c1c1c1.setAttribute("class", "ms-Icon ms-Icon--search");
+        PeoplePicker0c3c1c1c1.appendChild(PeoplePicker0c3c1c1c1c1);
+        PeoplePicker0c3c1c1c1.innerHTML += "        ";
+        PeoplePicker0c3c1c1.appendChild(PeoplePicker0c3c1c1c1);
+        PeoplePicker0c3c1c1.innerHTML += "        ";
+        var PeoplePicker0c3c1c1c3 = document.createElement("div");
+        PeoplePicker0c3c1c1c3.setAttribute("class", "ms-PeoplePicker-searchMoreSecondary");
+        PeoplePicker0c3c1c1c3.innerHTML += "Showing top 5 results";
+        PeoplePicker0c3c1c1.appendChild(PeoplePicker0c3c1c1c3);
+        PeoplePicker0c3c1c1.innerHTML += "        ";
+        var PeoplePicker0c3c1c1c5 = document.createElement("div");
+        PeoplePicker0c3c1c1c5.setAttribute("class", "ms-PeoplePicker-searchMorePrimary");
+        PeoplePicker0c3c1c1c5.innerHTML += "Search Contacts &amp; Directory";
+        PeoplePicker0c3c1c1.appendChild(PeoplePicker0c3c1c1c5);
+        PeoplePicker0c3c1c1.innerHTML += "      ";
+        PeoplePicker0c3c1.appendChild(PeoplePicker0c3c1c1);
+        PeoplePicker0c3c1.innerHTML += "    ";
+        PeoplePicker0c3.appendChild(PeoplePicker0c3c1);
         PeoplePicker0c3.innerHTML += "  ";
         PeoplePicker0.appendChild(PeoplePicker0c3);
-        PeoplePicker0.innerHTML += "  ";
-        var PeoplePicker0c5 = document.createElement("div");
-        PeoplePicker0c5.setAttribute("class", "ms-PeoplePicker-searchMore");
-        PeoplePicker0c5.innerHTML += "    ";
-        var PeoplePicker0c5c1 = document.createElement("button");
-        PeoplePicker0c5c1.setAttribute("class", "ms-PeoplePicker-searchMoreBtn");
-        PeoplePicker0c5c1.innerHTML += "      ";
-        var PeoplePicker0c5c1c1 = document.createElement("div");
-        PeoplePicker0c5c1c1.setAttribute("class", "ms-PeoplePicker-searchMoreIcon");
-        PeoplePicker0c5c1c1.innerHTML += "        ";
-        var PeoplePicker0c5c1c1c1 = document.createElement("i");
-        PeoplePicker0c5c1c1c1.setAttribute("class", "ms-Icon ms-Icon--search");
-        PeoplePicker0c5c1c1.appendChild(PeoplePicker0c5c1c1c1);
-        PeoplePicker0c5c1c1.innerHTML += "      ";
-        PeoplePicker0c5c1.appendChild(PeoplePicker0c5c1c1);
-        PeoplePicker0c5c1.innerHTML += "      ";
-        var PeoplePicker0c5c1c3 = document.createElement("div");
-        PeoplePicker0c5c1c3.setAttribute("class", "ms-PeoplePicker-searchMoreSecondary");
-        PeoplePicker0c5c1c3.innerHTML += "Showing top 5 results";
-        PeoplePicker0c5c1.appendChild(PeoplePicker0c5c1c3);
-        PeoplePicker0c5c1.innerHTML += "      ";
-        var PeoplePicker0c5c1c5 = document.createElement("div");
-        PeoplePicker0c5c1c5.setAttribute("class", "ms-PeoplePicker-searchMorePrimary");
-        PeoplePicker0c5c1c5.innerHTML += "Search Contacts &amp; Directory";
-        PeoplePicker0c5c1.appendChild(PeoplePicker0c5c1c5);
-        PeoplePicker0c5c1.innerHTML += "    ";
-        PeoplePicker0c5.appendChild(PeoplePicker0c5c1);
-        PeoplePicker0c5.innerHTML += "  ";
-        PeoplePicker0.appendChild(PeoplePicker0c5);
         PeoplePicker0.innerHTML += "";
         return PeoplePicker0;
     };
@@ -2489,7 +4482,7 @@ var FabricTemplateLibrary = (function () {
     };
     FabricTemplateLibrary.prototype.TextField = function () {
         var TextField0 = document.createElement("div");
-        TextField0.setAttribute("class", "ms-TextField ");
+        TextField0.setAttribute("class", "ms-TextField  ");
         TextField0.innerHTML += "        ";
         return TextField0;
     };
@@ -2561,11 +4554,11 @@ var fabric;
     var ARROW_SIZE = 28;
     var ARROW_OFFSET = 8;
     var ContextualHost = (function () {
-        function ContextualHost(content, direction, targetElement, hasArrow, modifiers, matchTargetWidth) {
+        function ContextualHost(content, direction, targetElement, hasArrow, modifiers, matchTargetWidth, disposalCallback) {
             if (hasArrow === void 0) { hasArrow = true; }
             this._ftl = new FabricTemplateLibrary();
             this._resizeAction = this._resizeAction.bind(this);
-            this._disMissAction = this._disMissAction.bind(this);
+            this._dismissAction = this._dismissAction.bind(this);
             this._matchTargetWidth = matchTargetWidth || false;
             this._direction = direction;
             this._container = this._ftl.ContextualHost();
@@ -2577,6 +4570,9 @@ var fabric;
             this._targetElement = targetElement;
             this._openModal();
             this._setResizeDisposal();
+            if (disposalCallback) {
+                this._disposalCallback = disposalCallback;
+            }
             if (modifiers) {
                 for (var i = 0; i < modifiers.length; i++) {
                     this._container.classList.add(MODIFIER_BASE + modifiers[i]);
@@ -2585,8 +4581,11 @@ var fabric;
         }
         ContextualHost.prototype.disposeModal = function () {
             window.removeEventListener("resize", this._resizeAction, false);
-            document.removeEventListener("click", this._disMissAction, true);
+            document.removeEventListener("click", this._dismissAction, true);
             this._container.parentNode.removeChild(this._container);
+            if (this._disposalCallback) {
+                this._disposalCallback();
+            }
         };
         ContextualHost.prototype.setChildren = function (value) {
             if (!this._children) {
@@ -2790,8 +4789,8 @@ var fabric;
             this._teWidth = this._targetElement.getBoundingClientRect().width;
             this._teHeight = this._targetElement.getBoundingClientRect().height;
         };
-        ContextualHost.prototype._disMissAction = function (e) {
-            // If the elemenet clicked is not INSIDE of searchbox then close seach
+        ContextualHost.prototype._dismissAction = function (e) {
+            // If the element clicked is not INSIDE of contextualHost then close contextualHost
             if (!this._container.contains(e.target) && e.target !== this._container) {
                 if (this._children !== undefined) {
                     var isChild_1 = false;
@@ -2811,10 +4810,11 @@ var fabric;
         };
         ContextualHost.prototype._setDismissClick = function () {
             var _this = this;
-            document.addEventListener("click", this._disMissAction, true);
+            document.addEventListener("click", this._dismissAction, true);
+            document.addEventListener("focus", this._dismissAction, true);
             document.addEventListener("keyup", function (e) {
                 if (e.keyCode === 32 || e.keyCode === 27) {
-                    _this._disMissAction(e);
+                    _this._dismissAction(e);
                 }
             }, true);
         };
@@ -2972,125 +4972,6 @@ var fabric;
         return CheckBox;
     }());
     fabric.CheckBox = CheckBox;
-})(fabric || (fabric = {}));
-
-// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
-/// <reference path="../CheckBox/CheckBox.ts"/>
-"use strict";
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var fabric;
-(function (fabric) {
-    /**
-     * RadioButton Plugin
-     *
-     * Adds basic demonstration functionality to .ms-RadioButton components.
-     *
-     */
-    var RadioButton = (function (_super) {
-        __extends(RadioButton, _super);
-        /**
-         *
-         * @param {HTMLElement} container - the target container for an instance of RadioButton
-         * @constructor
-         */
-        function RadioButton(container) {
-            _super.call(this, container);
-            if (this._choiceFieldLI.getAttribute("role") === "radio") {
-                this._choiceFieldLI.classList.add("ms-Choice-type--radio");
-            }
-        }
-        RadioButton.prototype.removeListeners = function () {
-            _super.prototype.removeListeners.call(this);
-            this._choiceFieldLI.removeEventListener("click", this._RadioClickHandler.bind(this));
-            this._choiceFieldLI.addEventListener("keydown", this._RadioKeydownHandler.bind(this));
-        };
-        RadioButton.prototype._addListeners = function () {
-            _super.prototype._addListeners.call(this, { ignore: ["keydown", "click"] });
-            this._choiceFieldLI.addEventListener("click", this._RadioClickHandler.bind(this), false);
-            this._choiceFieldLI.addEventListener("keydown", this._RadioKeydownHandler.bind(this), false);
-        };
-        RadioButton.prototype._RadioClickHandler = function (event) {
-            event.stopPropagation();
-            event.preventDefault();
-            this._dispatchSelectEvent();
-        };
-        RadioButton.prototype._dispatchSelectEvent = function () {
-            var objDict = {
-                bubbles: true,
-                cancelable: true,
-                detail: {
-                    name: this._choiceFieldLI.getAttribute("name"),
-                    item: this
-                }
-            };
-            this._choiceFieldLI.dispatchEvent(new CustomEvent("msChoicefield", objDict));
-        };
-        RadioButton.prototype._RadioKeydownHandler = function (event) {
-            if (event.keyCode === 32) {
-                event.stopPropagation();
-                event.preventDefault();
-                if (!this._choiceFieldLI.classList.contains("is-disabled")) {
-                    this._dispatchSelectEvent();
-                }
-            }
-        };
-        return RadioButton;
-    }(fabric.CheckBox));
-    fabric.RadioButton = RadioButton;
-})(fabric || (fabric = {}));
-
-// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
-/// <reference path="../RadioButton/RadioButton.ts"/>
-"use strict";
-var fabric;
-(function (fabric) {
-    /**
-     * ChoiceFieldGroup Plugin
-     *
-     * Adds basic demonstration functionality to .ms-ChoiceFieldGroup components.
-     *
-    */
-    var ChoiceFieldGroup = (function () {
-        /**
-         *
-         * @param {HTMLElement} container - the target container for an instance of ChoiceFieldGroup
-         * @constructor
-         */
-        function ChoiceFieldGroup(container) {
-            this._choiceFieldGroup = container;
-            this._choiceFieldComponents = [];
-            this._initalSetup();
-            this._addListeners();
-        }
-        ChoiceFieldGroup.prototype.removeListeners = function () {
-            this._choiceFieldGroup.removeEventListener("msChoicefield", this._ChoiceFieldHandler.bind(this));
-        };
-        ChoiceFieldGroup.prototype._initalSetup = function () {
-            var choiceFieldElements = this._choiceFieldGroup.querySelectorAll(".ms-RadioButton");
-            for (var i = 0; i < choiceFieldElements.length; i++) {
-                this._choiceFieldComponents[i] = new fabric.RadioButton(choiceFieldElements[i]);
-            }
-        };
-        ChoiceFieldGroup.prototype._addListeners = function () {
-            document.addEventListener("msChoicefield", this._ChoiceFieldHandler.bind(this), false);
-        };
-        ChoiceFieldGroup.prototype._ChoiceFieldHandler = function (event) {
-            var name = event.detail.name;
-            var selectedChoice = event.detail.item;
-            if (this._choiceFieldGroup.id === name) {
-                for (var i = 0; i < this._choiceFieldComponents.length; i++) {
-                    this._choiceFieldComponents[i].unCheck();
-                }
-                selectedChoice.check();
-            }
-        };
-        return ChoiceFieldGroup;
-    }());
-    fabric.ChoiceFieldGroup = ChoiceFieldGroup;
 })(fabric || (fabric = {}));
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
@@ -3623,97 +5504,123 @@ var fabric;
 })(fabric || (fabric = {}));
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
-/// <reference path="../../../dist/js/fabric.templates.ts"/>
-/// <reference path="../ContextualHost/ContextualHost.ts"/>
-/// <reference path="../Button/Button.ts"/>
+/// <reference path="../CheckBox/CheckBox.ts"/>
+"use strict";
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
 var fabric;
 (function (fabric) {
-    var MODAL_POSITION = "bottom";
-    var SUBMENU_POSITION = "right";
-    var ContextualMenu = (function () {
-        function ContextualMenu(container, hostTarget, position) {
-            this._container = container;
-            this._hostTarget = hostTarget;
-            this._position = position ? position : MODAL_POSITION;
-            this._setOpener(hostTarget);
-            this._init();
+    /**
+     * RadioButton Plugin
+     *
+     * Adds basic demonstration functionality to .ms-RadioButton components.
+     *
+     */
+    var RadioButton = (function (_super) {
+        __extends(RadioButton, _super);
+        /**
+         *
+         * @param {HTMLElement} container - the target container for an instance of RadioButton
+         * @constructor
+         */
+        function RadioButton(container) {
+            _super.call(this, container);
+            if (this._choiceFieldLI.getAttribute("role") === "radio") {
+                this._choiceFieldLI.classList.add("ms-Choice-type--radio");
+            }
         }
-        ContextualMenu.prototype.getHost = function () {
-            return this._host;
+        RadioButton.prototype.removeListeners = function () {
+            _super.prototype.removeListeners.call(this);
+            this._choiceFieldLI.removeEventListener("click", this._RadioClickHandler.bind(this));
+            this._choiceFieldLI.addEventListener("keydown", this._RadioKeydownHandler.bind(this));
         };
-        ContextualMenu.prototype._init = function () {
-            this._container.addEventListener("click", this._onContextualMenuClick.bind(this), true);
+        RadioButton.prototype._addListeners = function () {
+            _super.prototype._addListeners.call(this, { ignore: ["keydown", "click"] });
+            this._choiceFieldLI.addEventListener("click", this._RadioClickHandler.bind(this), false);
+            this._choiceFieldLI.addEventListener("keydown", this._RadioKeydownHandler.bind(this), false);
         };
-        ContextualMenu.prototype._onContextualMenuClick = function (event) {
-            var target = event.target;
-            var classList = target.classList;
-            if (classList.contains("ms-ContextualMenu-link") && !classList.contains("is-disabled")) {
-                if (this._container.classList.contains("ms-ContextualMenu--multiselect")) {
-                    this._multiSelect(target);
+        RadioButton.prototype._RadioClickHandler = function (event) {
+            event.stopPropagation();
+            event.preventDefault();
+            this._dispatchSelectEvent();
+        };
+        RadioButton.prototype._dispatchSelectEvent = function () {
+            var objDict = {
+                bubbles: true,
+                cancelable: true,
+                detail: {
+                    name: this._choiceFieldLI.getAttribute("name"),
+                    item: this
                 }
-                else {
-                    this._singleSelect(target);
-                }
-            }
+            };
+            this._choiceFieldLI.dispatchEvent(new CustomEvent("msChoicefield", objDict));
         };
-        ContextualMenu.prototype._multiSelect = function (target) {
-            if (target.classList.contains("is-selected")) {
-                target.classList.remove("is-selected");
-            }
-            else {
-                target.classList.add("is-selected");
-            }
-        };
-        ContextualMenu.prototype._singleSelect = function (target) {
-            var selecteds = this._container.querySelectorAll(".is-selected");
-            var i = selecteds.length;
-            while (i--) {
-                selecteds[i].classList.remove("is-selected");
-            }
-            target.classList.add("is-selected");
-        };
-        ContextualMenu.prototype._setOpener = function (hostTarget) {
-            var _this = this;
-            hostTarget.addEventListener("click", function (event) {
+        RadioButton.prototype._RadioKeydownHandler = function (event) {
+            if (event.keyCode === 32) {
+                event.stopPropagation();
                 event.preventDefault();
-                _this._openContextMenu(event);
-            });
-        };
-        ContextualMenu.prototype._openContextMenu = function (event) {
-            this._createModalHostView(this._container, this._position, this._hostTarget);
-            this._checkForSubmenus(this._container);
-        };
-        ContextualMenu.prototype._checkForSubmenus = function (container) {
-            var _this = this;
-            var submenus = container.querySelectorAll(".ms-ContextualMenu-item.ms-ContextualMenu-item--hasMenu");
-            var i = submenus.length;
-            if (submenus.length) {
-                var _loop_1 = function() {
-                    var button = submenus[i].querySelector(".ms-ContextualMenu-link");
-                    var menu = submenus[i].querySelector(".ms-ContextualMenu");
-                    if (menu) {
-                        var contextualMenu_1 = new fabric.ContextualMenu(menu, button, SUBMENU_POSITION);
-                        menu.addEventListener("hostAdded", function () {
-                            _this._host.setChildren(contextualMenu_1.getHost());
-                        });
-                    }
-                };
-                while (i--) {
-                    _loop_1();
+                if (!this._choiceFieldLI.classList.contains("is-disabled")) {
+                    this._dispatchSelectEvent();
                 }
             }
         };
-        ContextualMenu.prototype._createModalHostView = function (container, position, hostTarget) {
-            container.classList.remove("is-hidden");
-            this._host = new fabric.ContextualHost(container, position, hostTarget, false);
-            container.dispatchEvent(new Event("hostAdded"));
-        };
-        return ContextualMenu;
-    }());
-    fabric.ContextualMenu = ContextualMenu;
+        return RadioButton;
+    }(fabric.CheckBox));
+    fabric.RadioButton = RadioButton;
 })(fabric || (fabric = {}));
 
+// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
+/// <reference path="../RadioButton/RadioButton.ts"/>
 "use strict";
+var fabric;
+(function (fabric) {
+    /**
+     * ChoiceFieldGroup Plugin
+     *
+     * Adds basic demonstration functionality to .ms-ChoiceFieldGroup components.
+     *
+    */
+    var ChoiceFieldGroup = (function () {
+        /**
+         *
+         * @param {HTMLElement} container - the target container for an instance of ChoiceFieldGroup
+         * @constructor
+         */
+        function ChoiceFieldGroup(container) {
+            this._choiceFieldGroup = container;
+            this._choiceFieldComponents = [];
+            this._initalSetup();
+            this._addListeners();
+        }
+        ChoiceFieldGroup.prototype.removeListeners = function () {
+            this._choiceFieldGroup.removeEventListener("msChoicefield", this._ChoiceFieldHandler.bind(this));
+        };
+        ChoiceFieldGroup.prototype._initalSetup = function () {
+            var choiceFieldElements = this._choiceFieldGroup.querySelectorAll(".ms-RadioButton");
+            for (var i = 0; i < choiceFieldElements.length; i++) {
+                this._choiceFieldComponents[i] = new fabric.RadioButton(choiceFieldElements[i]);
+            }
+        };
+        ChoiceFieldGroup.prototype._addListeners = function () {
+            document.addEventListener("msChoicefield", this._ChoiceFieldHandler.bind(this), false);
+        };
+        ChoiceFieldGroup.prototype._ChoiceFieldHandler = function (event) {
+            var name = event.detail.name;
+            var selectedChoice = event.detail.item;
+            if (this._choiceFieldGroup.id === name) {
+                for (var i = 0; i < this._choiceFieldComponents.length; i++) {
+                    this._choiceFieldComponents[i].unCheck();
+                }
+                selectedChoice.check();
+            }
+        };
+        return ChoiceFieldGroup;
+    }());
+    fabric.ChoiceFieldGroup = ChoiceFieldGroup;
+})(fabric || (fabric = {}));
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
 // @TODO - we can add this once jquery is removed
@@ -3806,6 +5713,12 @@ var fabric;
             $yearPicker.appendTo($pickerWrapper);
             /** Update the custom view. */
             this.updateCustomView($datePicker);
+            /** dispatch click on document so anything listening can be notified */
+            $picker.on("open", function (e) {
+                var evt = document.createEvent("MouseEvents");
+                evt.initEvent("click", true, true);
+                document.dispatchEvent(evt);
+            });
             /** Move back one month. */
             $monthControls.on("click", ".js-prevMonth", function (event) {
                 event.preventDefault();
@@ -3950,6 +5863,99 @@ var fabric;
     }());
     fabric.DatePicker = DatePicker;
 })(fabric || (fabric = {}));
+
+// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
+/// <reference path="../../../dist/js/fabric.templates.ts"/>
+/// <reference path="../ContextualHost/ContextualHost.ts"/>
+/// <reference path="../Button/Button.ts"/>
+var fabric;
+(function (fabric) {
+    var MODAL_POSITION = "bottom";
+    var SUBMENU_POSITION = "right";
+    var ContextualMenu = (function () {
+        function ContextualMenu(container, hostTarget, position) {
+            this._container = container;
+            this._hostTarget = hostTarget;
+            this._position = position ? position : MODAL_POSITION;
+            this._setOpener(hostTarget);
+            this._init();
+        }
+        ContextualMenu.prototype.getHost = function () {
+            return this._host;
+        };
+        ContextualMenu.prototype._init = function () {
+            this._container.addEventListener("click", this._onContextualMenuClick.bind(this), true);
+        };
+        ContextualMenu.prototype._onContextualMenuClick = function (event) {
+            var target = event.target;
+            var classList = target.classList;
+            if (classList.contains("ms-ContextualMenu-link") && !classList.contains("is-disabled")) {
+                if (this._container.classList.contains("ms-ContextualMenu--multiselect")) {
+                    this._multiSelect(target);
+                }
+                else {
+                    this._singleSelect(target);
+                }
+            }
+        };
+        ContextualMenu.prototype._multiSelect = function (target) {
+            if (target.classList.contains("is-selected")) {
+                target.classList.remove("is-selected");
+            }
+            else {
+                target.classList.add("is-selected");
+            }
+        };
+        ContextualMenu.prototype._singleSelect = function (target) {
+            var selecteds = this._container.querySelectorAll(".is-selected");
+            var i = selecteds.length;
+            while (i--) {
+                selecteds[i].classList.remove("is-selected");
+            }
+            target.classList.add("is-selected");
+        };
+        ContextualMenu.prototype._setOpener = function (hostTarget) {
+            var _this = this;
+            hostTarget.addEventListener("click", function (event) {
+                event.preventDefault();
+                _this._openContextMenu(event);
+            });
+        };
+        ContextualMenu.prototype._openContextMenu = function (event) {
+            this._createModalHostView(this._container, this._position, this._hostTarget);
+            this._checkForSubmenus(this._container);
+        };
+        ContextualMenu.prototype._checkForSubmenus = function (container) {
+            var _this = this;
+            var submenus = container.querySelectorAll(".ms-ContextualMenu-item.ms-ContextualMenu-item--hasMenu");
+            var i = submenus.length;
+            if (submenus.length) {
+                var _loop_1 = function() {
+                    var button = submenus[i].querySelector(".ms-ContextualMenu-link");
+                    var menu = submenus[i].querySelector(".ms-ContextualMenu");
+                    if (menu) {
+                        var contextualMenu_1 = new fabric.ContextualMenu(menu, button, SUBMENU_POSITION);
+                        menu.addEventListener("hostAdded", function () {
+                            _this._host.setChildren(contextualMenu_1.getHost());
+                        });
+                    }
+                };
+                while (i--) {
+                    _loop_1();
+                }
+            }
+        };
+        ContextualMenu.prototype._createModalHostView = function (container, position, hostTarget) {
+            container.classList.remove("is-hidden");
+            this._host = new fabric.ContextualHost(container, position, hostTarget, false);
+            container.dispatchEvent(new Event("hostAdded"));
+        };
+        return ContextualMenu;
+    }());
+    fabric.ContextualMenu = ContextualMenu;
+})(fabric || (fabric = {}));
+
+"use strict";
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
 /// <reference path="../../../dist/js/fabric.templates.ts"/>
@@ -4318,6 +6324,8 @@ var fabric;
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
 // "use strict";
+/// <reference path="../../utilities/Animate.ts"/>
+/// <reference path="../../utilities/Ease.ts"/>
 var fabric;
 (function (fabric) {
     /**
@@ -4337,17 +6345,22 @@ var fabric;
             var activeId = activeElement.getAttribute("data-action-id");
             this._actions = this._container.querySelector(".ms-PersonaCard-actions");
             this._expander = this._container.querySelector(".ms-PersonaCard-detailExpander");
-            this._addListeners();
+            this._actionDetailBox = this._container.querySelector(".ms-PersonaCard-actionDetailBox");
             this._setDetail(activeId);
+            this._boundOnActionClick = this._onActionClick.bind(this);
+            this._boundOnExpanderClick = this._onExpanderClick.bind(this);
+            this._boundOnTab = this._onTab.bind(this);
+            this._addListeners();
         }
         PersonaCard.prototype.removeListeners = function () {
-            this._actions.removeEventListener("click", this._onActionClick.bind(this));
-            this._expander.removeEventListener("click", this._onExpanderClick.bind(this));
+            this._actions.removeEventListener("click", this._boundOnActionClick);
+            this._expander.removeEventListener("click", this._boundOnExpanderClick);
+            this._container.removeEventListener("keydown", this._boundOnTab);
         };
         PersonaCard.prototype._addListeners = function () {
-            this._actions.addEventListener("click", this._onActionClick.bind(this), false);
-            this._expander.addEventListener("click", this._onExpanderClick.bind(this), false);
-            this._container.addEventListener("keydown", this._onTab.bind(this), false);
+            this._actions.addEventListener("click", this._boundOnActionClick, false);
+            this._expander.addEventListener("click", this._boundOnExpanderClick, false);
+            this._container.addEventListener("keydown", this._boundOnTab, false);
         };
         PersonaCard.prototype._onTab = function (event) {
             var target = event.target;
@@ -4363,6 +6376,8 @@ var fabric;
             else {
                 parent.classList.add("is-collapsed");
             }
+            var parentHeight = parent.clientHeight;
+            this._animateDetail(parentHeight);
         };
         PersonaCard.prototype._onActionClick = function (event) {
             var target = event.target;
@@ -4385,6 +6400,20 @@ var fabric;
                 lastDetail.classList.remove("is-active");
             }
             activeDetail.classList.add("is-active");
+            var detailHeight = activeDetail.clientHeight;
+            this._animateDetail(detailHeight);
+        };
+        PersonaCard.prototype._animateDetail = function (height) {
+            var _this = this;
+            this._actionDetailBox.style.overflowY = "hidden";
+            fabric.Animate.transition(this._actionDetailBox, {
+                height: height,
+                duration: 0.25,
+                ease: fabric.Ease.SINE_EASE_OUT,
+                onEnd: function () {
+                    _this._actionDetailBox.style.overflowY = "auto";
+                }
+            });
         };
         return PersonaCard;
     }());
@@ -4450,7 +6479,7 @@ var fabric;
      * A host for FacePile
      *
      */
-    var PERSONA_CLASS = ".ms-Persona";
+    var PERSONA_CLASS = ".ms-Persona--facePile";
     var PERSONA_INITIALS = ".ms-Persona-initials";
     var PERSONA_IMAGE = ".ms-Persona-image";
     var PERSONA_PRIMARY_CLASS = ".ms-Persona-primaryText";
@@ -4709,8 +6738,8 @@ var fabric;
      * People picker control
      *
      */
-    var CONTEXT_CLASS = ".ms-ContextualHost";
     var MODAL_POSITION = "bottom";
+    var TOKEN_CLASS = "ms-Persona--token";
     var PeoplePicker = (function () {
         /**
          *
@@ -4719,17 +6748,125 @@ var fabric;
          */
         function PeoplePicker(container) {
             this._container = container;
+            this._peoplePickerMenu = this._container.querySelector(".ms-PeoplePicker-results");
+            this._peoplePickerSearch = this._container.querySelector(".ms-TextField-field");
+            this._peoplePickerSearchBox = this._container.querySelector(".ms-PeoplePicker-searchBox");
+            this._selectedPeople = this._container.querySelectorAll(".ms-PeoplePicker-selectedPeople");
             this._assignClicks();
-            this._contextualHost = this._container.querySelector(CONTEXT_CLASS);
+            if (this._peoplePickerMenu) {
+                this._peoplePickerMenu.setAttribute("style", "display: none;");
+            }
         }
-        PeoplePicker.prototype._createModalHost = function () {
-            this._contextualHostView = new fabric.ContextualHost(this._contextualHost, MODAL_POSITION, this._container, true);
+        PeoplePicker.prototype._createModalHost = function (e) {
+            e.stopPropagation();
+            this._peoplePickerMenu.setAttribute("style", "display: block;");
+            this._contextualHostView = new fabric.ContextualHost(this._peoplePickerMenu, MODAL_POSITION, this._peoplePickerSearchBox, false, [""], true, this._contextHostCallBack.bind(this));
+            this._peoplePickerSearchBox.classList.add("is-active");
+            this._isContextualMenuOpen = true;
         };
         PeoplePicker.prototype._clickHandler = function (e) {
-            this._createModalHost();
+            this._createModalHost(e);
+            // Select all results and remove event listeners by cloning
+            var peoplePickerResults = this._peoplePickerMenu.querySelector(".ms-PeoplePicker-result");
+            var resultsParent = peoplePickerResults.parentNode;
+            var resultsClone = resultsParent.cloneNode(true);
+            resultsParent.parentNode.replaceChild(resultsClone, resultsParent);
+            // Get all results
+            this._peoplePickerResults = this._peoplePickerMenu.querySelectorAll(".ms-PeoplePicker-result");
+            // Add _selectResult listeners to each result
+            for (var i = 0; i < this._peoplePickerResults.length; i++) {
+                this._peoplePickerResults[i].addEventListener("click", this._selectResult.bind(this), true);
+            }
+        };
+        PeoplePicker.prototype._selectResult = function (e) {
+            e.stopPropagation();
+            var currentResult = this._findElement(e.target, "ms-Persona");
+            var clonedResult = currentResult.cloneNode(true);
+            var openHost = document.querySelector(".ms-ContextualHost.is-open");
+            // if facePile - add to members list / else tokenize
+            if (this._container.classList.contains("ms-PeoplePicker--facePile")) {
+                this._addResultToMembers(clonedResult);
+            }
+            else {
+                this._tokenizeResult(clonedResult);
+            }
+            // Close the open contextual host
+            openHost.classList.remove("is-open");
+        };
+        PeoplePicker.prototype._findElement = function (childObj, className) {
+            var currentElement = childObj.parentNode;
+            while (!currentElement.classList.contains(className)) {
+                currentElement = currentElement.parentNode;
+            }
+            return currentElement;
+        };
+        PeoplePicker.prototype._addRemoveBtn = function (persona, token) {
+            var actionBtn;
+            var actionIcon = document.createElement("i");
+            if (token) {
+                actionBtn = document.createElement("div");
+                actionBtn.classList.add("ms-Persona-actionIcon");
+                actionBtn.addEventListener("click", this._removeToken.bind(this), true);
+            }
+            else {
+                actionBtn = document.createElement("button");
+                actionBtn.classList.add("ms-PeoplePicker-resultAction");
+                actionBtn.addEventListener("click", this._removeResult.bind(this), true);
+            }
+            actionIcon.classList.add("ms-Icon", "ms-Icon--x");
+            actionBtn.appendChild(actionIcon);
+            persona.appendChild(actionBtn);
+        };
+        PeoplePicker.prototype._removeToken = function (e) {
+            var currentToken = this._findElement(e.target, "ms-Persona");
+            currentToken.remove();
+        };
+        PeoplePicker.prototype._removeResult = function (e) {
+            var currentResult = this._findElement(e.target, "ms-PeoplePicker-selectedPerson");
+            currentResult.remove();
+        };
+        PeoplePicker.prototype._tokenizeResult = function (tokenResult) {
+            var searchBox = this._container.querySelector(".ms-PeoplePicker-searchBox");
+            var textField = searchBox.querySelector(".ms-TextField");
+            // Add token classes to persona
+            tokenResult.classList.add(TOKEN_CLASS, "ms-PeoplePicker-persona");
+            // Add the remove button to the token
+            this._addRemoveBtn(tokenResult, true);
+            // Use persona xs variant for token
+            if (tokenResult.classList.contains("ms-Persona--sm")) {
+                tokenResult.classList.remove("ms-Persona--sm");
+                tokenResult.classList.add("ms-Persona--xs");
+            }
+            // Prepend the token before the search field
+            searchBox.insertBefore(tokenResult, textField);
+        };
+        PeoplePicker.prototype._addResultToMembers = function (persona) {
+            var membersList = this._container.querySelector(".ms-PeoplePicker-selectedPeople");
+            var firstMember = membersList.querySelector(".ms-PeoplePicker-selectedPerson");
+            var selectedItem = document.createElement("li");
+            // Create the selectedPerson list item
+            selectedItem.classList.add("ms-PeoplePicker-selectedPerson");
+            selectedItem.tabIndex = 1;
+            // Append the result persona to list item
+            selectedItem.appendChild(persona);
+            // Add the remove button to the persona
+            this._addRemoveBtn(selectedItem, false);
+            // Add removeResult event to resultAction
+            selectedItem.querySelector(".ms-PeoplePicker-resultAction").addEventListener("click", this._removeResult.bind(this), true);
+            membersList.insertBefore(selectedItem, firstMember);
         };
         PeoplePicker.prototype._assignClicks = function () {
-            this._container.addEventListener("click", this._clickHandler.bind(this), true);
+            var _this = this;
+            this._peoplePickerSearch.addEventListener("click", this._clickHandler.bind(this), true);
+            this._peoplePickerSearch.addEventListener("keyup", function (e) {
+                if (e.keyCode !== 27 && !_this._isContextualMenuOpen) {
+                    _this._clickHandler(e);
+                }
+            }, true);
+        };
+        PeoplePicker.prototype._contextHostCallBack = function () {
+            this._peoplePickerSearchBox.classList.remove("is-active");
+            this._isContextualMenuOpen = false;
         };
         return PeoplePicker;
     }());
@@ -5030,6 +7167,46 @@ var fabric;
 })(fabric || (fabric = {}));
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
+/**
+ * @namespace fabric
+ */
+var fabric;
+(function (fabric) {
+    "use strict";
+    var Table = (function () {
+        function Table(container) {
+            this.container = container;
+            // Is the table selectable?
+            if (this.container.className.indexOf("ms-Table--selectable") !== -1) {
+                this._addListeners();
+            }
+        }
+        /**
+         * Add event listeners
+         */
+        Table.prototype._addListeners = function () {
+            this.container.addEventListener("click", this._toggleRowSelection.bind(this), false);
+        };
+        /**
+         * Select or deselect a row
+         */
+        Table.prototype._toggleRowSelection = function (event) {
+            var selectedRow = event.target.parentElement;
+            var selectedStateClass = "is-selected";
+            // Toggle the selected state class
+            if (selectedRow.className === selectedStateClass) {
+                selectedRow.className = "";
+            }
+            else {
+                selectedRow.className = selectedStateClass;
+            }
+        };
+        return Table;
+    }());
+    fabric.Table = Table;
+})(fabric || (fabric = {}));
+
+// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
 "use strict";
 var fabric;
 (function (fabric) {
@@ -5078,7 +7255,7 @@ var fabric;
                     _this._textFieldLabel.style.display = "none";
                 });
                 this._textField.addEventListener("blur", function (event) {
-                    // Hide only if no value in the text field
+                    // Show only if no value in the text field
                     if (_this._textField.value.length === 0) {
                         _this._textFieldLabel.style.display = "block";
                     }
@@ -5097,46 +7274,6 @@ var fabric;
         return TextField;
     }());
     fabric.TextField = TextField;
-})(fabric || (fabric = {}));
-
-// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.
-/**
- * @namespace fabric
- */
-var fabric;
-(function (fabric) {
-    "use strict";
-    var Table = (function () {
-        function Table(container) {
-            this.container = container;
-            // Is the table selectable?
-            if (this.container.className.indexOf("ms-Table--selectable") !== -1) {
-                this._addListeners();
-            }
-        }
-        /**
-         * Add event listeners
-         */
-        Table.prototype._addListeners = function () {
-            this.container.addEventListener("click", this._toggleRowSelection.bind(this), false);
-        };
-        /**
-         * Select or deselect a row
-         */
-        Table.prototype._toggleRowSelection = function (event) {
-            var selectedRow = event.target.parentElement;
-            var selectedStateClass = "is-selected";
-            // Toggle the selected state class
-            if (selectedRow.className === selectedStateClass) {
-                selectedRow.className = "";
-            }
-            else {
-                selectedRow.className = selectedStateClass;
-            }
-        };
-        return Table;
-    }());
-    fabric.Table = Table;
 })(fabric || (fabric = {}));
 
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information.

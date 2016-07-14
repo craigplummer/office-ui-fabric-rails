@@ -522,71 +522,81 @@
 }
 
 .ms-font-su {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 42px;
   font-weight: 100;
 }
 
 .ms-font-xxl {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 28px;
   font-weight: 100;
 }
 
 .ms-font-xl {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 21px;
   font-weight: 100;
 }
 
 .ms-font-l {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 17px;
   font-weight: 300;
 }
 
 .ms-font-m-plus {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 15px;
   font-weight: 400;
 }
 
 .ms-font-m {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 14px;
   font-weight: 400;
 }
 
 .ms-font-s-plus {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 13px;
   font-weight: 400;
 }
 
 .ms-font-s {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 12px;
   font-weight: 400;
 }
 
 .ms-font-xs {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 11px;
   font-weight: 400;
 }
 
 .ms-font-mi {
-  color: #333333;
   font-family: 'Segoe UI WestEuropean', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 10px;
   font-weight: 600;
 }

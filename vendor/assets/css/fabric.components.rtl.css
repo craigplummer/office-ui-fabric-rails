@@ -7,6 +7,7 @@
 
 .ms-Breadcrumb {
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   margin: 23px 0 1px;
 }
 
@@ -170,14 +171,14 @@
   margin: 0;
   padding: 0;
   box-shadow: none;
-  color: #333333;
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 14px;
   font-weight: 400;
   background-color: #f4f4f4;
   border: 1px solid #f4f4f4;
   cursor: pointer;
-  display: inline-block;
   height: 32px;
   min-width: 80px;
   padding: 4px 20px 6px;
@@ -291,37 +292,36 @@
 }
 
 .ms-Button.ms-Button--hero {
+  -ms-flex-align: center;
+  align-items: center;
   background-color: transparent;
   border: 0;
-  vertical-align: top;
-  line-height: normal;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
 }
 
 .ms-Button.ms-Button--hero .ms-Button-icon {
   color: #0078d7;
-  display: inline-block;
-  font-size: 12px;
-  position: relative;
-  top: -8px;
+  display: block;
+  margin-left: 4px;
   text-align: center;
 }
 
 .ms-Button.ms-Button--hero .ms-Button-icon .ms-Icon {
   border-radius: 18px;
   border: 1px solid #0078d7;
+  font-size: 12px;
   height: 18px;
   line-height: 18px;
   width: 18px;
-  font-size: 12px;
-  margin: 0;
 }
 
 .ms-Button.ms-Button--hero .ms-Button-label {
   color: #0078d7;
-  font-weight: 100;
   font-size: 21px;
+  font-weight: 100;
   position: relative;
-  top: -5px;
   text-decoration: none;
 }
 
@@ -429,8 +429,9 @@
 }
 
 .ms-Callout {
-  width: 288px;
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 288px;
 }
 
 .ms-Callout.is-hidden {
@@ -549,12 +550,13 @@
 }
 
 .ms-CheckBox {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   min-height: 36px;
@@ -662,12 +664,13 @@
 }
 
 .ms-RadioButton {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   min-height: 36px;
@@ -753,8 +756,9 @@
 }
 
 .ms-ChoiceFieldGroup {
-  margin-bottom: 4px;
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 4px;
 }
 
 .ms-ChoiceFieldGroup .ms-ChoiceFieldGroup-list {
@@ -763,13 +767,14 @@
 }
 
 .ms-CommandBar {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   background-color: #eff6fc;
   height: 40px;
   white-space: nowrap;
   padding-right: 0;
   border: 0;
   position: relative;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
 
 .ms-CommandBar:focus {
@@ -852,9 +857,10 @@
 }
 
 .ms-CommandButton {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
   position: relative;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
 
 .ms-CommandButton.is-hidden {
@@ -889,7 +895,6 @@
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
@@ -957,7 +962,6 @@
 }
 
 .ms-CommandButton-label {
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #333333;
@@ -975,7 +979,6 @@
   display: inline-block;
   position: relative;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 17px;
   font-weight: 300;
   min-width: 17px;
@@ -1003,7 +1006,6 @@
 
 .ms-CommandButton-splitIcon {
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 17px;
   font-weight: 300;
   margin-right: -4px;
@@ -1064,12 +1066,13 @@
 }
 
 .ms-ContextualMenu {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   display: block;
@@ -1225,12 +1228,13 @@
 }
 
 .ms-DatePicker {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   margin-bottom: 17px;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   z-index: 300;
 }
 
@@ -1669,10 +1673,11 @@
 }
 
 .ms-Dialog {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
   background-color: #ffffff;
   display: none;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   height: auto;
   min-width: 220px;
   max-width: 340px;
@@ -1763,12 +1768,13 @@
 }
 
 .ms-Dropdown {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -2035,10 +2041,11 @@
 }
 
 .ms-FacePile {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   position: relative;
   height: 32px;
   width: auto;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
 
 .ms-FacePile .ms-FacePile-personaCardHost {
@@ -2131,6 +2138,7 @@
 
 .ms-Link {
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-size: 14px;
   font-weight: 400;
   color: #0078d7;
@@ -2167,11 +2175,12 @@
 
 .ms-List,
 .ms-ListItem {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -2406,8 +2415,9 @@
 }
 
 .ms-MessageBanner {
-  color: #333333;
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 12px;
   font-weight: 400;
   position: relative;
@@ -2535,12 +2545,13 @@
 }
 
 .ms-ContextualHost {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   z-index: 10;
   margin: 16px auto;
   position: relative;
   min-width: 10px;
   display: none;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   background-color: #ffffff;
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
 }
@@ -2640,6 +2651,8 @@
 }
 
 .ms-MessageBar {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   padding: 8px;
   display: table;
   background-color: #f4f4f4;
@@ -2658,8 +2671,9 @@
 }
 
 .ms-MessageBar-text {
-  color: #333333;
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
   font-size: 12px;
   font-weight: 400;
 }
@@ -2721,12 +2735,13 @@
 }
 
 .ms-OrgChart {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -2762,6 +2777,8 @@
 }
 
 .ms-Overlay {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   background-color: hsla(0,0%,100%,0.4);
   position: absolute;
   bottom: 0;
@@ -2769,7 +2786,6 @@
   left: 0;
   top: 0;
   z-index: 0;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   display: none;
 }
 
@@ -2782,6 +2798,8 @@
 }
 
 .ms-Panel {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   background-color: #ffffff;
   width: 100%;
   max-width: 272px;
@@ -2791,7 +2809,6 @@
   bottom: 0;
   left: 0;
   z-index: 10;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   display: none;
 }
 
@@ -2835,20 +2852,13 @@
   max-width: 1192px;
 }
 
-.ms-PanelHost.ms-PanelHost--left {
-  left: auto;
-  right: 0;
-  border-right: 1px solid #eaeaea;
-  border-left: 1px solid #eaeaea;
+.ms-Panel--left {
   box-shadow: 30px 0 30px 30px rgba(0,0,0,0.2);
+  right: 0;
+  left: auto;
 }
 
-.ms-PanelHost.ms-PanelHost--left .ms-Panel-commands,
-.ms-PanelHost.ms-PanelHost--left .ms-Panel-contentInner {
-  display: none;
-}
-
-.ms-PanelHost.ms-PanelHost--left.ms-Panel-animateIn .ms-Panel-main {
+.ms-Panel--left.animate-in {
   animation-name: fadeIn,slideRightIn40;
   -webkit-animation-duration: 0.367s;
      -moz-animation-duration: 0.367s;
@@ -2858,17 +2868,7 @@
   animation-fill-mode: both;
 }
 
-.ms-PanelHost.ms-PanelHost--left.ms-Panel-animateIn .ms-Overlay {
-  -webkit-animation-duration: 0.367s;
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-fill-mode: both;
-          animation-duration: 0.367s;
-          animation-name: fadeIn;
-          animation-fill-mode: both;
-          animation-duration: 0.267s;
-}
-
-.ms-PanelHost.ms-PanelHost--left.ms-Panel--left.ms-Panel-animateOut .ms-Panel-main {
+.ms-Panel--left.animate-out {
   animation-name: fadeOut,slideLeftOut40;
   -webkit-animation-duration: 0.167s;
      -moz-animation-duration: 0.167s;
@@ -2876,16 +2876,6 @@
        -o-animation-duration: 0.167s;
   animation-timing-function: cubic-bezier(0.1,0.25,0.75,0.9);
   animation-fill-mode: both;
-}
-
-.ms-PanelHost.ms-PanelHost--left.ms-Panel--left.ms-Panel-animateOut .ms-Overlay {
-  -webkit-animation-duration: 0.367s;
-  -webkit-animation-name: fadeOut;
-  -webkit-animation-fill-mode: both;
-          animation-duration: 0.367s;
-          animation-name: fadeOut;
-          animation-fill-mode: both;
-          animation-duration: 0.167s;
 }
 
 .ms-Panel-closeButton {
@@ -2943,106 +2933,87 @@
   }
 }
 
-@media (min-width:480px) {
-  .ms-Panel.ms-Panel--animatedCommands .ms-CommandBar {
-    display: block;
-  }
+.ms-PanelHost {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }
 
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:hover {
-  background-color: #d7eaf9;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:active {
-  background-color: #b5d8f4;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:active .ms-CommandBarItem-icon {
-  color: #07288b;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:active .ms-CommandBarItem-commandText {
-  color: #000000;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child {
-  background-color: #0078d7;
-  box-shadow: inset 0 1px 0 0 #2488d8;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child .ms-CommandBarItem-commandText,
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child .ms-CommandBarItem-icon {
-  color: #ffffff;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child .ms-CommandBarItem-linkWrapper {
-  padding-right: 12px;
-  padding-left: 12px;
+.ms-PanelHost .ms-Overlay {
   cursor: pointer;
 }
 
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child:hover {
-  background-color: #005a9e;
-  box-shadow: none;
-}
-
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child:hover .ms-CommandBarItem-commandText,
-.ms-Panel.ms-Panel--animatedCommands .ms-CommandBarItem:first-child:hover .ms-CommandBarItem-icon {
-  color: #ffffff;
-}
-
-.ms-Panel.ms-Panel--animatedCommands.is-open .ms-CommandBar {
-  animation-name: fadeIn,slideDownIn20;
-  -webkit-animation-duration: 0.367s;
-     -moz-animation-duration: 0.367s;
-      -ms-animation-duration: 0.367s;
-       -o-animation-duration: 0.367s;
-  animation-timing-function: cubic-bezier(0.1,0.9,0.2,1);
-  animation-fill-mode: both;
-  animation-delay: 0.25s;
-}
-
-@media (min-width:480px) {
-  .ms-Panel.ms-Panel--animatedCommands.is-open .ms-CommandBar {
-    animation-delay: 0.5s;
-  }
-}
-
 .ms-PeoplePicker {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   background-color: #ffffff;
   margin-bottom: 10px;
 }
 
 .ms-PeoplePicker-searchBox {
-  border-bottom: 2px solid #0078d7;
+  border-bottom: 1px solid #c8c8c8;
+  cursor: text;
 }
 
-.ms-PeoplePicker-searchBox .ms-TextField {
+.ms-PeoplePicker-searchBox:hover {
+  border-color: #767676;
+}
+
+.ms-PeoplePicker-searchBox.is-active,
+.ms-PeoplePicker-searchBox:focus {
+  border-color: #0078d7;
+}
+
+@media screen and (-ms-high-contrast:active) {
+  .ms-PeoplePicker-searchBox:focus,
+  .ms-PeoplePicker-searchBox:hover {
+    border-color: #1aebff;
+  }
+}
+
+@media screen and (-ms-high-contrast:black-on-white) {
+  .ms-PeoplePicker-searchBox:focus,
+  .ms-PeoplePicker-searchBox:hover {
+    border-color: #37006e;
+  }
+}
+
+.ms-PeoplePicker-searchBox:-moz-placeholder,
+.ms-PeoplePicker-searchBox:-ms-input-placeholder,
+.ms-PeoplePicker-searchBox::-moz-placeholder,
+.ms-PeoplePicker-searchBox::-webkit-input-placeholder {
+  color: #666666;
+}
+
+.ms-PeoplePicker-searchBox .ms-TextField.ms-TextField--textFieldUnderlined {
   border: 0;
   margin-bottom: 0;
+  display: inline-block;
+  width: auto;
 }
 
-.ms-PeoplePicker-searchBox .ms-TextField .ms-TextField-field {
+.ms-PeoplePicker-searchBox .ms-TextField.ms-TextField--textFieldUnderlined .ms-TextField-field {
   min-height: 40px;
   border: 0;
 }
 
 .ms-PeoplePicker.is-active .ms-PeoplePicker-searchBox .ms-TextField-field {
   border-color: #0078d7;
+}
+
+.ms-PeoplePicker-persona {
+  cursor: pointer;
 }
 
 .ms-PeoplePicker-persona.has-error .ms-Persona-primaryText {
@@ -3122,21 +3093,23 @@
   margin-bottom: 8px;
   padding-right: 16px;
   cursor: pointer;
+  outline: 0;
 }
 
+.ms-PeoplePicker-result:focus,
 .ms-PeoplePicker-result:hover {
   background-color: #eaeaea;
 }
 
-.ms-PeoplePicker-result .ms-PeoplePicker-resultAction:hover {
-  background-color: #c8c8c8;
-  outline: 1px solid transparent;
+.ms-PeoplePicker-result:focus {
+  box-shadow: inset 0 0 0 1px #0078d7;
 }
 
 .ms-PeoplePicker-result.is-selected {
   background-color: #c7e0f4;
 }
 
+.ms-PeoplePicker-result.is-selected .ms-PeoplePicker-resultAction:active,
 .ms-PeoplePicker-result.is-selected .ms-PeoplePicker-resultAction:hover {
   background-color: #71afe5;
 }
@@ -3197,7 +3170,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 30px;
+  width: 40px;
   text-align: center;
 }
 
@@ -3206,8 +3179,13 @@
   font-size: 15px;
 }
 
+.ms-PeoplePicker-resultAction:hover {
+  background-color: #c8c8c8;
+  outline: 1px solid transparent;
+}
+
 .ms-PeoplePicker-resultAction:active {
-  background-color: #71afe5;
+  background-color: #a6a6a6;
 }
 
 .ms-PeoplePicker-resultAdditionalContent {
@@ -3311,6 +3289,8 @@
 
 .ms-PeoplePicker-searchMorePrimary {
   padding-top: 2px;
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -3338,208 +3318,196 @@
   top: 12px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-resultGroups {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-resultAction {
+  height: 32px;
+  width: 32px;
+}
+
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-resultGroups {
   max-height: 209px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-resultAction {
-  height: 32px;
-}
-
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-resultAction .ms-Icon {
-  margin-top: -8px;
-}
-
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMore {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMore {
   height: 49px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMore .ms-Spinner {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMore .ms-Spinner {
   width: 28px;
   height: 28px;
   top: 12px;
   right: 12px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMore.is-searching .ms-PeoplePicker-searchMoreIcon {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMoreBtn {
+  height: 100%;
+}
+
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMore.is-searching .ms-PeoplePicker-searchMoreIcon {
   background-size: 16px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMoreIcon {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMoreIcon {
   height: 50px;
   width: 50px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMoreIcon .ms-Icon {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMoreIcon .ms-Icon {
   font-size: 17px;
   top: 0;
   margin-top: 0;
   line-height: 50px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMorePrimary {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMorePrimary {
   font-size: 12px;
   line-height: 45px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--compact .ms-PeoplePicker-searchMoreSecondary {
+.ms-PeoplePicker-results.ms-PeoplePicker-results--compact .ms-PeoplePicker-searchMoreSecondary {
   display: none;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchBox,
-.ms-PeoplePicker.ms-PeoplePicker--membersList .ms-PeoplePicker-searchBox {
-  height: 30px;
-  min-height: 30px;
-}
-
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchField,
-.ms-PeoplePicker.ms-PeoplePicker--membersList .ms-PeoplePicker-searchField {
-  height: 28px;
-}
-
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-Persona,
-.ms-PeoplePicker.ms-PeoplePicker--membersList .ms-Persona {
-  cursor: pointer;
-}
-
-.ms-PeoplePicker-selected {
-  margin-bottom: 20px;
-  display: none;
-}
-
-.ms-PeoplePicker-selected.is-active {
-  display: block;
-}
-
-.ms-PeoplePicker.ms-PeoplePicker--FacePile.is-searching .ms-PeoplePicker-results {
+.ms-PeoplePicker.ms-PeoplePicker--facePile.is-searching .ms-PeoplePicker-results {
   border-bottom: 0;
   padding: 20px 0 0;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile.is-searching .ms-PeoplePicker-peopleListHeader {
+.ms-PeoplePicker.ms-PeoplePicker--facePile.is-searching .ms-PeoplePicker-peopleListHeader {
   display: none;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results {
-  position: relative;
-  border: 0;
-  box-shadow: none;
-  margin: 0;
-  max-width: 100%;
-  padding: 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eaeaea;
-}
-
-@media (max-width:479px) {
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-image,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-imageArea,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-image,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-imageArea {
-    width: 32px;
-    height: 32px;
-  }
-
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-placeholder,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-placeholder {
-    font-size: 28px;
-    top: 6px;
-  }
-
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-initials,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-initials {
-    font-size: 12px;
-    line-height: 32px;
-  }
-
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-presence,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-presence {
-    right: 19px;
-  }
-
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-details,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-details {
-    padding-right: 8px;
-  }
-
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-primaryText,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-primaryText {
-    font-size: 14px;
-    padding-top: 3px;
-  }
-
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona-secondaryText,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona-secondaryText {
-    display: none;
-  }
-}
-
-@media (min-width:480px) {
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-results .ms-Persona .ms-Persona-secondaryText,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-selectedPeople .ms-Persona .ms-Persona-secondaryText {
-    display: block;
-  }
-}
-
-@media (min-width:480px) {
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-peopleListBtn,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-resultAction,
-  .ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-resultBtn {
-    height: 42px;
-  }
-}
-
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PersonaCard {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PersonaCard {
   display: none;
   position: absolute;
   height: 200px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PersonaCard.is-active {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PersonaCard.is-active {
   display: block;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-Persona.ms-Persona--selectable {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-Persona.ms-Persona--selectable {
   padding: 0;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMore {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMore {
   display: none;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMore.is-active {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMore.is-active {
   display: block;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMore,
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMoreBtn,
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMoreIcon {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMore,
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMoreBtn,
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMoreIcon {
   height: 48px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMoreBtn {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMoreBtn {
   padding-right: 48px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMoreIcon {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMoreIcon {
   width: 48px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMorePrimary {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMorePrimary {
   font-size: 12px;
   line-height: 48px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-PeoplePicker-searchMoreIcon .ms-Icon {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-PeoplePicker-searchMoreIcon .ms-Icon {
   top: 0;
   line-height: 48px;
 }
 
-.ms-PeoplePicker.ms-PeoplePicker--FacePile .ms-Spinner {
+.ms-PeoplePicker.ms-PeoplePicker--facePile .ms-Spinner {
   top: 16px;
   right: 14px;
   height: 20px;
   width: 20px;
+}
+
+.ms-PeoplePicker-results.ms-PeoplePicker-results--facePile {
+  position: relative;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  max-width: 100%;
+  border-bottom: 1px solid #eaeaea;
+}
+
+@media (max-width:479px) {
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-image,
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-imageArea,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-image,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-imageArea {
+    width: 32px;
+    height: 32px;
+  }
+
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-placeholder,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-placeholder {
+    font-size: 28px;
+    top: 6px;
+  }
+
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-initials,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-initials {
+    font-size: 12px;
+    line-height: 32px;
+  }
+
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-presence,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-presence {
+    right: 19px;
+  }
+
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-details,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-details {
+    padding-right: 8px;
+  }
+
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-primaryText,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-primaryText {
+    font-size: 14px;
+    padding-top: 3px;
+  }
+
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona-secondaryText,
+  .ms-PeoplePicker-selectedPeople .ms-Persona-secondaryText {
+    display: none;
+  }
+}
+
+@media (min-width:480px) {
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-Persona .ms-Persona-secondaryText,
+  .ms-PeoplePicker-selectedPeople .ms-Persona .ms-Persona-secondaryText {
+    display: block;
+  }
+}
+
+@media (min-width:480px) {
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-PeoplePicker-peopleListBtn,
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-PeoplePicker-resultAction,
+  .ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-PeoplePicker-resultBtn,
+  .ms-PeoplePicker-selectedPeople .ms-PeoplePicker-peopleListBtn,
+  .ms-PeoplePicker-selectedPeople .ms-PeoplePicker-resultAction,
+  .ms-PeoplePicker-selectedPeople .ms-PeoplePicker-resultBtn {
+    height: 40px;
+  }
+}
+
+.ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-PeoplePicker-selected,
+.ms-PeoplePicker-selectedPeople .ms-PeoplePicker-selected {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.ms-PeoplePicker-results.ms-PeoplePicker-results--facePile .ms-PeoplePicker-selected.is-active,
+.ms-PeoplePicker-selectedPeople .ms-PeoplePicker-selected.is-active {
+  display: block;
 }
 
 .ms-PeoplePicker-peopleListHeader,
@@ -3571,12 +3539,13 @@
 }
 
 .ms-Persona {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -4123,7 +4092,7 @@
   width: auto;
   background-color: #f4f4f4;
   border-radius: 20px;
-  margin-bottom: 4px;
+  margin: 4px;
 }
 
 .ms-Persona.ms-Persona--token:hover {
@@ -4159,7 +4128,7 @@
 
 .ms-Persona.ms-Persona--token .ms-Persona-primaryText {
   padding-top: 0;
-  line-height: 30px;
+  line-height: 34px;
 }
 
 .ms-Persona.ms-Persona--token .ms-Persona-initials {
@@ -4167,6 +4136,8 @@
 }
 
 .ms-PersonaCard {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   animation-name: fadeIn,slideUpIn10;
   -webkit-animation-duration: 0.167s;
      -moz-animation-duration: 0.167s;
@@ -4175,7 +4146,6 @@
   animation-timing-function: cubic-bezier(0.1,0.25,0.75,0.9);
   animation-fill-mode: both;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   bottom: 0;
@@ -4194,12 +4164,21 @@
 
 .ms-PersonaCard-actions {
   box-sizing: border-box;
+  position: relative;
   list-style: none;
   margin: 0;
   padding: 0 10px;
-  border-bottom: 1px solid #c8c8c8;
   background-color: #ffffff;
   height: 48px;
+}
+
+.ms-PersonaCard-actions:before {
+  content: '';
+  position: absolute;
+  top: 47px;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid #c8c8c8;
 }
 
 .ms-PersonaCard-action,
@@ -4273,7 +4252,7 @@
 .ms-PersonaCard-orgChart {
   position: absolute;
   left: 12px;
-  top: 0;
+  top: -95px;
 }
 
 .ms-PersonaCard-actionDetailBox {
@@ -4362,45 +4341,71 @@
 }
 
 .ms-Pivot {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
 .ms-Pivot-links {
-  color: #333333;
-  height: 30px;
+  font-size: 0;
+  height: 40px;
   list-style-type: none;
-  white-space: nowrap;
   padding: 0;
+  white-space: nowrap;
 }
 
 .ms-Pivot-link {
   color: #333333;
   display: inline-block;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 27px;
-  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 8px;
+  padding: 0 8px;
+  text-align: center;
 }
 
-.ms-Pivot-link:focus,
 .ms-Pivot-link:hover {
-  color: #000000;
   cursor: pointer;
 }
 
-.ms-Pivot-link:active {
-  color: #0078d7;
+.ms-Pivot-link:before {
+  background-color: transparent;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  right: 8px;
+  position: absolute;
+  left: 8px;
+  transition: background-color 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+}
+
+.ms-Pivot-link:after {
+  color: transparent;
+  content: attr(title);
+  display: block;
+  font-weight: 700;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .ms-Pivot-link.is-selected {
-  color: #0078d7;
   font-weight: 600;
+  position: relative;
+}
+
+.ms-Pivot-link.is-selected:before {
+  background-color: #0078d7;
+}
+
+.ms-Pivot-link.is-disabled {
+  color: #a6a6a6;
 }
 
 .ms-Pivot-link.ms-Pivot-link--overflow {
@@ -4428,6 +4433,7 @@
 
 .ms-Pivot-content {
   display: none;
+  margin-top: 20px;
 }
 
 .ms-Pivot.ms-Pivot--large .ms-Pivot-link {
@@ -4475,13 +4481,6 @@
   background-color: #0078d7;
 }
 
-@media (min-width:640px) {
-  .ms-Pivot-link,
-  .ms-Pivot-link.ms-Pivot-link--overflow:after {
-    font-size: 14px;
-  }
-}
-
 @media screen and (-ms-high-contrast:active) {
   .ms-Pivot.ms-Pivot--tabs .ms-Pivot-link.is-selected {
     font-weight: 600;
@@ -4490,6 +4489,7 @@
 
 .ms-ProgressIndicator {
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-weight: 400;
 }
 
@@ -4545,12 +4545,13 @@
 }
 
 .ms-SearchBox {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   position: relative;
@@ -4777,9 +4778,10 @@
 }
 
 .ms-Spinner {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   position: relative;
   height: 20px;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
 
 .ms-Spinner.ms-Spinner--large {
@@ -4822,6 +4824,7 @@
 .ms-Spinner-label,
 .ms-Table {
   font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .ms-Table {
@@ -4957,12 +4960,13 @@
 }
 
 .ms-TextField {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 8px;
@@ -5036,6 +5040,13 @@
   .ms-TextField-field:hover {
     border-color: #37006e;
   }
+}
+
+.ms-TextField-field[disabled] {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  pointer-events: none;
+  cursor: default;
 }
 
 .ms-TextField-field:-moz-placeholder,
@@ -5152,6 +5163,10 @@
 }
 
 .ms-TextField.ms-TextField--multiline .ms-TextField-field {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
+  font-size: 12px;
   font-weight: 300;
   line-height: 17px;
   min-height: 60px;
@@ -5204,11 +5219,12 @@
 }
 
 .ms-Label {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 12px;
   font-weight: 400;
   box-sizing: border-box;
@@ -5226,12 +5242,13 @@
 }
 
 .ms-Toggle {
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-shadow: none;
   color: #333333;
-  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   font-weight: 400;
   position: relative;
