@@ -53,7 +53,8 @@ If you also wish to use the [Fabric components](http://dev.office.com/fabric/com
 Add the following to your `app/assets/javascripts/application.js` file:
 
 ```
-//= require jquery.fabric
+//= require fabric
+//= require fabric.templates
 ```
 
 For information on how to use the Office UI Fabric framework see the [documentation](http://dev.office.com/fabric)
