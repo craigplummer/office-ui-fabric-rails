@@ -12,8 +12,6 @@ namespace :assets do
     sh 'cp -r bower_components/office-ui-fabric/dist/sass/* vendor/assets/scss'
     sh 'cp -r bower_components/office-ui-fabric/dist/css/* vendor/assets/css'
     sh 'cp -r bower_components/office-ui-fabric-js/dist/js/* vendor/assets/js'
-    sh 'cp -r bower_components/office-ui-fabric-js/dist/css/* vendor/assets/css'
-    sh 'cp -r bower_components/office-ui-fabric-js/dist/sass/* vendor/assets/scss'
 
     puts "Updated to the latest version of Office UI Fabric"
   end

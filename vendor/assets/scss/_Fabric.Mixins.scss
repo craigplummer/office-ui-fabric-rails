@@ -208,6 +208,16 @@
     vertical-align: baseline;
 }
 
+// Prevents user selection of text elements.
+@mixin user-select ($val) {
+    -webkit-touch-callout:  $val;
+    -webkit-user-select:    $val;
+    -khtml-user-select:     $val;
+    -moz-user-select:       $val;
+    -ms-user-select:        $val;
+    user-select:            $val;
+}
+
 // Prevents the text within a block element from wrapping to second line.
 @mixin noWrap() {
   display: block;
@@ -218,12 +228,10 @@
 
 // Input placehoder
 @mixin input-placeholder {
-    &::-webkit-input-placeholder,
-    &::-moz-placeholder,
-    &:-moz-placeholder,
-    &:-ms-input-placeholder {
-        @content;
-    }
+    &::-webkit-input-placeholder  {@content}
+    &::-moz-placeholder           {@content}
+    &:-moz-placeholder            {@content}
+    &:-ms-input-placeholder       {@content}
 }
 
 // Animations
