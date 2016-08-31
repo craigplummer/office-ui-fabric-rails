@@ -25,11 +25,23 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  
+
   spec.add_dependency "railties", [">= 3.1.0"]
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rails"
+
+  spec.post_install_message = %q{
+*** IMPORTANT CHANGE to office-ui-fabric-rails ***
+
+Microsoft have now split the Office UI Fabric framework into two projects - Core and JS.
+
+This gem will receive no further updates and you should instead use office-ui-fabric-core-rails
+for the Core framework and office-ui-fabric-js-rails for the JS framework
+
+Any currently included CSS/SASS and JS can remain the same after switching to these gems.
+
+}
 end
