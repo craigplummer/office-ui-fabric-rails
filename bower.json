@@ -1,8 +1,8 @@
 {
   "name": "office-ui-fabric-rails",
-  "version": "4.0.0.0",
+  "version": "4.0.0.1",
   "dependencies": {
     "office-ui-fabric": "4.0.0",
-    "office-ui-fabric-js": "git@github.com:OfficeDev/office-ui-fabric-js.git#3.0.0-beta2"
+    "office-ui-fabric-js": "git@github.com:OfficeDev/office-ui-fabric-js.git#1.0.0"
   }
 }
