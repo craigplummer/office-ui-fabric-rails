@@ -12,8 +12,6 @@ namespace :assets do
     sh 'cp -r bower_components/office-ui-fabric/dist/sass/* vendor/assets/scss'
     sh 'cp -r bower_components/office-ui-fabric/dist/css/* vendor/assets/css'
     sh 'cp -r bower_components/office-ui-fabric-js/dist/js/* vendor/assets/js'
-    sh 'cp -r bower_components/office-ui-fabric-js/dist/components/**/*.scss vendor/assets/scss/components'
-    sh 'cp -r bower_components/office-ui-fabric-js/dist/css/fabric.components* vendor/assets/css'
 
     puts "Updated to the latest version of Office UI Fabric"
   end
@@ -21,7 +19,6 @@ namespace :assets do
   desc 'Remove old office-ui-fabric assets'
   task :clean do
     sh 'rm -rf vendor'
-    sh 'mkdir -p vendor/assets/js/ vendor/assets/scss/ vendor/assets/css vendor/assets/scss/components'
-    sh 'echo \'@import "components/*"\' > vendor/assets/scss/fabric.components.scss'
+    sh 'mkdir -p vendor/assets/js/ vendor/assets/scss/ vendor/assets/css'
   end
 end
